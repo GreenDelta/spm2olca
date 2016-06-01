@@ -1,3 +1,6 @@
+import uuid
+
+
 class Method(object):
 
     def __init__(self):
@@ -6,11 +9,17 @@ class Method(object):
         self.weighting_unit = ''
         self.impact_categories = []
 
+    @property
+    def uid(self):
+        return make_uuid('Method', self.name)
+
 
 class ImpactCategory(object):
 
-    def __init__(self):
-        self.name = ''
+    def __init__(self, line):
+        parts = [p.strip() for p in line.split(';')]
+        self.name = parts[0]
+        self.ref_unit = parts[1]
         self.factors = []
 
 
@@ -35,3 +44,17 @@ def parse_factor(line: str) -> ImpactFactor:
     f.value = float(parts[4].replace(',', '.'))
     f.unit = parts[5]
     return f
+
+
+def make_uuid(*args: list) -> str:
+    path = as_path(*args)
+    return str(uuid.uuid3(uuid.NAMESPACE_OID, path))
+
+
+def as_path(*args: list) -> str:
+    strings = []
+    for arg in args:
+        if arg is None:
+            continue
+        strings.append(str(arg).lower())
+    return "/".join(strings)

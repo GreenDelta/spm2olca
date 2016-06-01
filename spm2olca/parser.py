@@ -61,11 +61,10 @@ class Parser(object):
             return
 
         if self._section == 'Impact category':
-            self._category = m.ImpactCategory()
-            self._category.name = line
+            self._category = m.ImpactCategory(line)
             self._method.impact_categories.append(self._category)
             return
 
-        if self.section == 'Substances' and self._category is not None:
+        if self._section == 'Substances' and self._category is not None:
             f = m.parse_factor(line)
             self._category.factors.append(f)
