@@ -46,6 +46,13 @@ class Pack(object):
             print('  skipped factor ...')
             return
         self._flow(factor, pack)
+        obj = {'@type': 'ImpactFactor',
+               'value': factor.value,
+               'flow': {'@type': 'Flow', '@id': factor.flow_uid},
+               'unit': {'@type': 'Unit', '@id': unit_entry.unit_id},
+               'flowProperty': {'@type': 'FlowProperty',
+                                '@id': unit_entry.property_id}}
+        return obj
 
     def _flow(self, factor: model.ImpactFactor, pack):
         if factor.flow_uid in self._gen_flows:
