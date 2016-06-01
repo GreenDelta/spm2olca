@@ -1,4 +1,5 @@
 import json
+import spm2olca.mappings as mappings
 import spm2olca.model as model
 import zipfile as zipf
 
@@ -6,6 +7,7 @@ import zipfile as zipf
 class Pack(object):
     def __init__(self, methods):
         self.methods = methods
+        self.unit_map = mappings.UnitMap()
         self._gen_categories = {}
 
     def to(self, zip_file):
@@ -38,6 +40,11 @@ class Pack(object):
 
     def _factor(self, factor: model.ImpactFactor, pack):
         self._flow_category(factor, pack)
+        unit_entry = self.unit_map.get(factor.unit)
+        if unit_entry is None:
+            print('ERROR: unknown unit ' + factor.unit)
+            print('  skipped factor ...')
+            return
 
     def _flow_category(self, factor: model.ImpactFactor, pack) -> str:
         sub_uid = factor.flow_sub_category_uid
