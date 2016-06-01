@@ -9,6 +9,7 @@ class Pack(object):
         self.methods = methods
         self.unit_map = mappings.UnitMap()
         self._gen_categories = {}
+        self._gen_flows = {}
 
     def to(self, zip_file):
         pack = zipf.ZipFile(zip_file, mode='a', compression=zipf.ZIP_DEFLATED)
@@ -39,12 +40,35 @@ class Pack(object):
         dump(obj, 'lcia_categories', pack)
 
     def _factor(self, factor: model.ImpactFactor, pack):
-        self._flow_category(factor, pack)
         unit_entry = self.unit_map.get(factor.unit)
         if unit_entry is None:
             print('ERROR: unknown unit ' + factor.unit)
             print('  skipped factor ...')
             return
+        self._flow(factor, pack)
+
+    def _flow(self, factor: model.ImpactFactor, pack):
+        if factor.flow_uid in self._gen_flows:
+            return
+        unit_entry = self.unit_map.get(factor.unit)
+        if unit_entry is None:
+            return
+        category_id = self._flow_category(factor, pack)
+        obj = {'@type': 'Flow',
+               '@id': factor.flow_uid,
+               'name': factor.name,
+               'category': {'@type': 'Category', '@id': category_id},
+               'flowType': 'ELEMENTARY_FLOW',
+               'cas': factor.cas,
+               'flowProperties': [{
+                   '@type': 'FlowPropertyFactor',
+                   'referenceFlowProperty': True,
+                   'flowProperty': {
+                       '@type': 'FlowProperty',
+                       '@id': unit_entry.property_id}
+               }]}
+        self._gen_flows[factor.flow_uid] = True
+        dump(obj, 'flows', pack)
 
     def _flow_category(self, factor: model.ImpactFactor, pack) -> str:
         sub_uid = factor.flow_sub_category_uid
