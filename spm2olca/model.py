@@ -37,6 +37,19 @@ class ImpactFactor(object):
         self.value = 0
         self.unit = ''
 
+    @property
+    def flow_uid(self):
+        return make_uuid('Flow', self.category, self.sub_category, self.name,
+                         self.unit)
+
+    @property
+    def flow_category_uid(self):
+        return make_uuid('Category', self.category)
+
+    @property
+    def flow_sub_category_uid(self):
+        return make_uuid('Category', self.category, self.sub_category)
+
 
 def parse_factor(line: str) -> ImpactFactor:
     f = ImpactFactor()
