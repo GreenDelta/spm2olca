@@ -11,7 +11,7 @@ class Method(object):
 
     @property
     def uid(self):
-        return make_uuid('Method', self.name)
+        return make_uuid('ImpactMethod', self.name)
 
 
 class ImpactCategory(object):
@@ -21,6 +21,10 @@ class ImpactCategory(object):
         self.name = parts[0]
         self.ref_unit = parts[1]
         self.factors = []
+
+    @property
+    def uid(self):
+        return make_uuid('ImpactCategory', self.name)
 
 
 class ImpactFactor(object):
