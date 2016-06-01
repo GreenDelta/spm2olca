@@ -1,10 +1,7 @@
 import sys
 import os
 import os.path
-
-
-
-
+import spm2olca.parser as parser
 
 
 def main():
@@ -15,4 +12,7 @@ def main():
     file_path = args[1]
     file_name = os.path.basename(args[1])
     print('Convert CSV file "' + file_name + '"')
-    parse_file(file_path)
+    p = parser.Parser()
+    p.parse(file_path)
+    for m in p.methods:
+        print(m.name)
