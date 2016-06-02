@@ -1,13 +1,15 @@
 import json
-import spm2olca.mappings as mappings
+import spm2olca.mappings as maps
 import spm2olca.model as model
+from .util import as_path
 import zipfile as zipf
 
 
 class Pack(object):
     def __init__(self, methods):
         self.methods = methods
-        self.unit_map = mappings.UnitMap.create()
+        self.unit_map = maps.UnitMap.create()
+        self.flow_map = maps.FlowMap.create()
         self._gen_categories = {}
         self._gen_flows = {}
 
@@ -36,16 +38,28 @@ class Pack(object):
                'referenceUnitName': category.ref_unit,
                'impactFactors': []}
         for factor in category.factors:
-            obj['impactFactors'].append(self._factor(factor, pack))
+            f_obj = self._factor(factor, pack)
+            if f_obj is None:
+                continue
+            obj['impactFactors'].append(f_obj)
         dump(obj, 'lcia_categories', pack)
 
     def _factor(self, factor: model.ImpactFactor, pack):
-        unit_entry = self.unit_map.get(factor.unit)
+        flow = self.flow_map.get(factor.flow_uid)
+        if flow is not None:
+            # create LCIA factor for mapped flow
+            val = factor.value / flow.factor
+            obj = {'@type': 'ImpactFactor',
+                   'value': val,
+                   'flow': {'@type': 'Flow', '@id': flow.olca_flow_id},
+                   'unit': {'@type': 'Unit', '@id': flow.olca_unit_id},
+                   'flowProperty': {'@type': 'FlowProperty',
+                                    '@id': flow.olca_property_id}}
+            return obj
+
+        unit_entry = self._create_flow(factor, pack)
         if unit_entry is None:
-            print('ERROR: unknown unit ' + factor.unit)
-            print('  skipped factor ...')
-            return
-        self._flow(factor, pack)
+            return None
         obj = {'@type': 'ImpactFactor',
                'value': factor.value,
                'flow': {'@type': 'Flow', '@id': factor.flow_uid},
@@ -54,9 +68,19 @@ class Pack(object):
                                 '@id': unit_entry.property_id}}
         return obj
 
-    def _flow(self, factor: model.ImpactFactor, pack):
+    def _create_flow(self, factor: model.ImpactFactor, pack) -> maps.UnitEntry:
         if factor.flow_uid in self._gen_flows:
-            return
+            return None
+        path = as_path(factor.category, factor.sub_category, factor.name,
+                       factor.unit)
+        unit_entry = self.unit_map.get(factor.unit)
+        if unit_entry is None:
+            print('  ERROR: unknown unit ' + factor.unit)
+            print('    skipped factor for ' + path)
+            return None
+
+        print('  WARNING: Unmapped flow: ' + path)
+        print('    create new flow: ' + factor.flow_uid)
         unit_entry = self.unit_map.get(factor.unit)
         if unit_entry is None:
             return
