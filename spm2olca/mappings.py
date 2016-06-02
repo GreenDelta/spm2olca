@@ -13,17 +13,27 @@ class UnitEntry(object):
 
 class UnitMap(object):
 
-    def __init__(self):
+    def __init__(self, file_path):
         self.mappings = {}
-        path = data_dir+'/units.csv'
-        with open(path, 'r', encoding='utf-8', newline='\n') as f:
+        with open(file_path, 'r', encoding='utf-8', newline='\n') as f:
             reader = csv.reader(f, delimiter=';')
             next(reader)  # skip first line
             for line in reader:
                 entry = UnitEntry(line)
                 self.mappings[entry.unit_name] = entry
 
+    @staticmethod
+    def create():
+        """ Creates the unit map with default data. """
+        path = data_dir + '/units.csv'
+        return UnitMap(path)
+
     def get(self, unit_name: str) -> UnitEntry:
         if unit_name in self.mappings:
             return self.mappings[unit_name]
         return None
+
+
+class FlowEntry(object):
+    pass
+

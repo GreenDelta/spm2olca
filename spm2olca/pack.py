@@ -7,7 +7,7 @@ import zipfile as zipf
 class Pack(object):
     def __init__(self, methods):
         self.methods = methods
-        self.unit_map = mappings.UnitMap()
+        self.unit_map = mappings.UnitMap.create()
         self._gen_categories = {}
         self._gen_flows = {}
 
