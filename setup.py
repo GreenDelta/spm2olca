@@ -17,7 +17,7 @@ setup(
         ]
     },
     package_data={'spm2olca': ["data/*.*"]},
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
