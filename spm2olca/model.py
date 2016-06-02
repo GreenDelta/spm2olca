@@ -1,4 +1,4 @@
-import uuid
+from .util import make_uuid, flow_uuid
 
 
 class Method(object):
@@ -39,8 +39,7 @@ class ImpactFactor(object):
 
     @property
     def flow_uid(self):
-        return make_uuid('Flow', self.category, self.sub_category, self.name,
-                         self.unit)
+        return flow_uuid(self.category, self.sub_category, self.name, self.unit)
 
     @property
     def flow_category_uid(self):
@@ -61,17 +60,3 @@ def parse_factor(line: str) -> ImpactFactor:
     f.value = float(parts[4].replace(',', '.'))
     f.unit = parts[5]
     return f
-
-
-def make_uuid(*args: list) -> str:
-    path = as_path(*args)
-    return str(uuid.uuid3(uuid.NAMESPACE_OID, path))
-
-
-def as_path(*args: list) -> str:
-    strings = []
-    for arg in args:
-        if arg is None:
-            continue
-        strings.append(str(arg).lower())
-    return "/".join(strings)
