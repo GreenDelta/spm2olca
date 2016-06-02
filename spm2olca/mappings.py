@@ -3,6 +3,23 @@ from .util import flow_uuid, as_path
 from .data import data_dir
 
 
+def compartment(label: str) -> str:
+    if label is None:
+        return 'unspecified'
+    t = label.strip().lower()
+    if t in ('', '(unspecified)'):
+        return 'unspecified'
+    if t == 'air':
+        return 'Emissions to air'
+    if t == 'water':
+        return 'Emissions to water'
+    if t == 'soil':
+        return 'Emissions to soil'
+    if t == 'raw':
+        return 'Resources'
+    return label.strip()
+
+
 class UnitEntry(object):
     def __init__(self, csv_row):
         self.unit_name = csv_row[0]

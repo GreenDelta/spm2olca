@@ -1,4 +1,5 @@
 from .util import make_uuid, flow_uuid
+from .mappings import compartment
 
 
 class Method(object):
@@ -53,8 +54,8 @@ class ImpactFactor(object):
 def parse_factor(line: str) -> ImpactFactor:
     f = ImpactFactor()
     parts = [p.strip() for p in line.split(';')]
-    f.category = parts[0]
-    f.sub_category = parts[1]
+    f.category = compartment(parts[0])
+    f.sub_category = compartment(parts[1])
     f.name = parts[2]
     f.cas = parts[3]
     f.value = float(parts[4].replace(',', '.'))
