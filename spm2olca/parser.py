@@ -8,6 +8,7 @@ class Parser(object):
         self._method = None
         self._section = None
         self._category = None
+        self._nw_set = None
 
     def parse(self, file_path):
         with open(file_path, 'r', encoding='windows-1252') as f:
@@ -29,6 +30,8 @@ class Parser(object):
             # empty lines are section separators
             if self._category is not None and self._section == 'Substances':
                 self._category = None
+            if self._nw_set is not None and self._section == 'Weighting':
+                self._nw_set = None
             self._section = None
             return
 
@@ -66,5 +69,18 @@ class Parser(object):
             return
 
         if self._section == 'Substances' and self._category is not None:
-            f = m.parse_factor(line)
+            f = m.parse_impact_factor(line)
             self._category.factors.append(f)
+
+        if self._section == 'Normalization-Weighting set':
+            self._nw_set = m.NwSet(line)
+            self._method.nw_sets.append(self._nw_set)
+
+        if self.section == 'Normalization' and self._nw_set is not None:
+            f = m.parse_nw_factor(line)
+            self._nw_set.normalisations.append(f)
+
+        if self._section == 'Weighting' and self._nw_set is not None:
+            f = m.parse_nw_factor(line)
+            self._nw_set.weightings.append(f)
+

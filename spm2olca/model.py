@@ -3,12 +3,12 @@ from .mappings import compartment
 
 
 class Method(object):
-
     def __init__(self):
         self.name = ''
         self.comment = ''
         self.weighting_unit = ''
         self.impact_categories = []
+        self.nw_sets = []
 
     @property
     def uid(self):
@@ -16,7 +16,6 @@ class Method(object):
 
 
 class ImpactCategory(object):
-
     def __init__(self, line):
         parts = [p.strip() for p in line.split(';')]
         self.name = parts[0]
@@ -29,7 +28,6 @@ class ImpactCategory(object):
 
 
 class ImpactFactor(object):
-
     def __init__(self):
         self.category = ''
         self.sub_category = ''
@@ -51,7 +49,20 @@ class ImpactFactor(object):
         return make_uuid('Category', self.category, self.sub_category)
 
 
-def parse_factor(line: str) -> ImpactFactor:
+class NwSet(object):
+    def __init__(self, name):
+        self.name = name
+        self.normalisations = []
+        self.weightings = []
+
+
+class NwFactor(object):
+    def __init__(self):
+        self.impact_category = ''
+        self.factor = 0.0
+
+
+def parse_impact_factor(line: str) -> ImpactFactor:
     f = ImpactFactor()
     parts = [p.strip() for p in line.split(';')]
     f.category = compartment(parts[0])
@@ -60,4 +71,12 @@ def parse_factor(line: str) -> ImpactFactor:
     f.cas = parts[3]
     f.value = float(parts[4].replace(',', '.'))
     f.unit = parts[5]
+    return f
+
+
+def parse_nw_factor(line: str) -> NwFactor:
+    f = NwFactor()
+    parts = [p.strip() for p in line.split(';')]
+    f.impact_category = parts[0]
+    f.factor = float(parts[1])
     return f
