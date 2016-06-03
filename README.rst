@@ -20,7 +20,7 @@ test this by executing the following command:
 
 .. code-block:: bash
 
-    spm2olca help
+    spm2olca -h
     
 If you want to modify or improve the tool you can download the source and create
 an egg-link with pip:
@@ -47,6 +47,11 @@ methods you want to convert:
 This will generate the `olca-schema` package which will have the same file name
 but with a `.zip` extension. This file can be then imported into openLCA.
 
+To sell additional options use the help flag `-h`:
+
+.. code-block:: bash
+
+    spm2olca -h
 
 Unit mappings
 -------------
