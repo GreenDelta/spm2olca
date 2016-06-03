@@ -8,6 +8,7 @@ class Parser(object):
         self._method = None
         self._section = None
         self._category = None
+        self._damage = None
         self._nw_set = None
 
     def parse(self, file_path):
@@ -32,6 +33,8 @@ class Parser(object):
                 self._category = None
             if self._nw_set is not None and self._section == 'Weighting':
                 self._nw_set = None
+            if self._damage is not None and self._section == 'Impact categories':
+                    self._damage = None
             self._section = None
             return
 
@@ -77,9 +80,17 @@ class Parser(object):
             self._method.nw_sets.append(self._nw_set)
 
         if self._section == 'Normalization' and self._nw_set is not None:
-            f = m.parse_nw_factor(line)
+            f = m.parse_category_factor(line)
             self._nw_set.normalisations.append(f)
 
         if self._section == 'Weighting' and self._nw_set is not None:
-            f = m.parse_nw_factor(line)
+            f = m.parse_category_factor(line)
             self._nw_set.weightings.append(f)
+
+        if self._section == 'Damage category':
+            self._damage = m.DamageCategory(line)
+            self._method.damage_categories.append(self._damage)
+
+        if self._section == 'Impact categories' and self._damage is not None:
+            f = m.parse_category_factor(line)
+            self._damage.factors.append(f)

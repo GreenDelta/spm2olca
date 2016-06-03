@@ -2,7 +2,7 @@ import json
 import logging as log
 import spm2olca.mappings as maps
 import spm2olca.model as model
-from .util import as_path, make_uuid
+from .util import as_path
 import zipfile as zipf
 
 
@@ -44,13 +44,23 @@ class Pack(object):
                'name': nw_set.name,
                'weightedScoreUnit': method.weighting_unit,
                'factors': []}
-        for impact in nw_set.impact_categories:
-            print(impact)
+        for impact in method.impact_categories:
+            dam_f = method.get_damage_factor(impact)
+            if dam_f is None:
+                continue
+            damage_category, damage_factor = dam_f
+            weighting_factor = nw_set.get_weighting_factor(damage_category)
+            if weighting_factor is not None:
+                weighting_factor *= damage_factor
+            normalisation_factor = nw_set.get_normalisation_factor(
+                damage_category)
+            if normalisation_factor is not None:
+                normalisation_factor *= damage_factor
             f = {'@type': 'NwFactor',
                  'impactCategory': {'@type': 'ImpactCategory',
-                                    '@id': make_uuid('ImpactCategory', impact)},
-                 'normalisationFactor': nw_set.get_normalisation_factor(impact),
-                 'weightingFactor': nw_set.get_weighting_factor(impact)}
+                                    '@id': impact.uid},
+                 'normalisationFactor': normalisation_factor,
+                 'weightingFactor': weighting_factor}
             obj['factors'].append(f)
         dump(obj, 'nw_sets', pack)
 
