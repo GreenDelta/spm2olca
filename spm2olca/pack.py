@@ -7,10 +7,11 @@ import zipfile as zipf
 
 
 class Pack(object):
-    def __init__(self, methods):
+    def __init__(self, methods, skip_unmapped_flows=False):
         self.methods = methods
         self.unit_map = maps.UnitMap.create()
         self.flow_map = maps.FlowMap.create()
+        self.skip_unmapped_flows = skip_unmapped_flows
         self._gen_categories = {}
         self._gen_flows = {}
 
@@ -78,6 +79,12 @@ class Pack(object):
                    'flowProperty': {'@type': 'FlowProperty',
                                     '@id': flow.olca_property_id}}
             return obj
+
+        if self.skip_unmapped_flows:
+            path = as_path(factor.category, factor.sub_category, factor.name,
+                           factor.unit)
+            log.warning('skip unmapped flow ' + path)
+            return None
 
         unit_entry = self._create_flow(factor, pack)
         if unit_entry is None:
