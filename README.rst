@@ -1,6 +1,6 @@
 spm2olca
 ========
-spm2olca is a small command line tool that converts a SimaPro LCIA method files 
+spm2olca is a simple command line tool that converts a SimaPro LCIA method files
 to a `olca-schema <https://github.com/GreenDelta/olca-schema>`_  (JSON-LD) package.
 
 
@@ -47,16 +47,22 @@ methods you want to convert:
 This will generate the `olca-schema` package which will have the same file name
 but with a `.zip` extension. This file can be then imported into openLCA.
 
-To sell additional options use the help flag `-h`:
+To see additional options use the help flag `-h`:
 
 .. code-block:: bash
 
     spm2olca -h
 
+Additional options:
+
+* `-out`: define the name of the output file
+* `-skip_unmapped`: LCIA factors with unmapped flows are not included
+* `-log`: define the log level (e.g. 'all' will log everything)
+
 
 Unit mappings
 -------------
-TODO: document this
+Units are mapped by name to openLCA units and flow properties ...
 
 
 Flow mappings
