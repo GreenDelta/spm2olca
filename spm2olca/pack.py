@@ -1,4 +1,5 @@
 import json
+import logging as log
 import spm2olca.mappings as maps
 import spm2olca.model as model
 from .util import as_path
@@ -75,12 +76,12 @@ class Pack(object):
                        factor.unit)
         unit_entry = self.unit_map.get(factor.unit)
         if unit_entry is None:
-            print('  ERROR: unknown unit ' + factor.unit)
-            print('    skipped factor for ' + path)
+            log.error('unknown unit %s: skipped factor for %s' %
+                      (factor.unit, path))
             return None
 
-        print('  WARNING: Unmapped flow: ' + path)
-        print('    create new flow: ' + factor.flow_uid)
+        log.warning('Unmapped flow: %s -> create new: %s' %
+                    (path, factor.flow_uid))
         unit_entry = self.unit_map.get(factor.unit)
         if unit_entry is None:
             return

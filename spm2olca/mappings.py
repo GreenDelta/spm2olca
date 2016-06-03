@@ -1,4 +1,5 @@
 import csv
+import logging as log
 from .util import flow_uuid, as_path
 from .data import data_dir
 
@@ -82,17 +83,17 @@ class FlowMap(object):
             for line in reader:
 
                 if len(line) < 11:
-                    print('  ERROR: invalid line in ' + file_path + ':')
-                    print('  ' + str(line))
+                    log.error('invalid line in ' + file_path + ':' + str(line))
                     continue
 
                 entry = FlowEntry(line)
                 uid = entry.flow_uid
                 if uid in self.mappings:
-                    print('  WARNING: Duplicate in flow mappings: ' + file_path)
-                    print('    ' + as_path(entry.sp_category,
-                                           entry.sp_sub_category, entry.sp_name,
-                                           entry.sp_unit))
+                    log.warning('Duplicate in flow mappings: ' + file_path)
+                    log.warning('  ' + as_path(entry.sp_category,
+                                               entry.sp_sub_category,
+                                               entry.sp_name,
+                                               entry.sp_unit))
                 self.mappings[uid] = entry
 
     @staticmethod
