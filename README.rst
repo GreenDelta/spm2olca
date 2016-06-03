@@ -106,3 +106,8 @@ for such a mapped flow when converted to openLCA, e.g.:
 
     lcia_o = 2000/[m3] = 2/(0.001*[kg]) with a_s = [kg] 
 
+
+TODOS
+-----
+* read delimiter from file header (currently only semicolons are supported)
+* add template package with reference data

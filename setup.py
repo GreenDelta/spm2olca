@@ -4,11 +4,12 @@ setup(
     name="spm2olca",
     version="0.0.1",
     author="Michael Srocka",
-    author_email="michael.srocka@greendelta.com",
+    author_email="michael.srocka@gmail.com",
     description="SimaPro Method File to olca-schema converter",
     license="MIT",
     keywords="converter lca",
     url="https://github.com/GreenDelta/spm2olca",
+    download_url='https://github.com/GreenDelta/spm2olca/tarball/v0.0.1',
     packages=['spm2olca'],
     install_requires=[],
     entry_points={
@@ -21,7 +22,7 @@ setup(
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Environment :: Console",
-        "Intended Audience :: Science/Research"
+        "Intended Audience :: Science/Research",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3.5",
         "Topic :: Utilities",
