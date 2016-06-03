@@ -2,7 +2,7 @@ import json
 import logging as log
 import spm2olca.mappings as maps
 import spm2olca.model as model
-from .util import as_path
+from .util import as_path, make_uuid
 import zipfile as zipf
 
 
@@ -25,12 +25,33 @@ class Pack(object):
                '@id': method.uid,
                'name': method.name,
                'description': method.comment,
-               'impactCategories': []}
+               'impactCategories': [],
+               'nwSets': []}
         for category in method.impact_categories:
             ref = {'@type': 'ImpactCategory', '@id': category.uid}
             obj['impactCategories'].append(ref)
             self._impact_category(category, pack)
+        for nw_set in method.nw_sets:
+            ref = {'@type': 'NwSet', '@id': nw_set.uid}
+            obj['nwSets'].append(ref)
+            self._nw_set(nw_set, method, pack)
         dump(obj, 'lcia_methods', pack)
+
+    def _nw_set(self, nw_set: model.NwSet, method: model.Method, pack):
+        obj = {'@type': 'NwSet',
+               '@id': nw_set.uid,
+               'name': nw_set.name,
+               'weightedScoreUnit': method.weighting_unit,
+               'factors': []}
+        for impact in nw_set.impact_categories:
+            print(impact)
+            f = {'@type': 'NwFactor',
+                 'impactCategory': {'@type': 'ImpactCategory',
+                                    '@id': make_uuid('ImpactCategory', impact)},
+                 'normalisationFactor': nw_set.get_normalisation_factor(impact),
+                 'weightingFactor': nw_set.get_weighting_factor(impact)}
+            obj['factors'].append(f)
+        dump(obj, 'nw_sets', pack)
 
     def _impact_category(self, category: model.ImpactCategory, pack):
         obj = {'@type': 'ImpactCategory',
@@ -109,7 +130,8 @@ class Pack(object):
         parent_uid = factor.flow_category_uid
         if parent_uid not in self._gen_categories:
             obj = {'@type': 'Category', '@id': parent_uid,
-                   'name': factor.category, 'modelType': 'FLOW'}
+                   'name': factor.category, 'modelType': 'FLOW',
+                   'category': {'@type': 'Category', '@id': 'elementary-flows'}}
             dump(obj, 'categories', pack)
             self._gen_categories[parent_uid] = True
         obj = {'@type': 'Category',

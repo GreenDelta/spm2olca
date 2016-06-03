@@ -76,11 +76,10 @@ class Parser(object):
             self._nw_set = m.NwSet(line)
             self._method.nw_sets.append(self._nw_set)
 
-        if self.section == 'Normalization' and self._nw_set is not None:
+        if self._section == 'Normalization' and self._nw_set is not None:
             f = m.parse_nw_factor(line)
             self._nw_set.normalisations.append(f)
 
         if self._section == 'Weighting' and self._nw_set is not None:
             f = m.parse_nw_factor(line)
             self._nw_set.weightings.append(f)
-

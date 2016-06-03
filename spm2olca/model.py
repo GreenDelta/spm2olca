@@ -55,6 +55,34 @@ class NwSet(object):
         self.normalisations = []
         self.weightings = []
 
+    @property
+    def uid(self):
+        return make_uuid('NwSet', self.name)
+
+    @property
+    def impact_categories(self):
+        """ Returns the names of LCIA categories in this normalisation and
+            weighting set.
+        """
+        factors = self.normalisations + self.weightings
+        names = []
+        for f in factors:
+            if f.impact_category not in names:
+                names.append(f.impact_category)
+        return names
+
+    def get_weighting_factor(self, impact_category):
+        for f in self.weightings:
+            if f.impact_category == impact_category:
+                return f.factor
+        return None
+
+    def get_normalisation_factor(self, impact_category):
+        for f in self.normalisations:
+            if f.impact_category == impact_category:
+                return f.factor
+        return None
+
 
 class NwFactor(object):
     def __init__(self):
