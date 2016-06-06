@@ -55,7 +55,7 @@ class Pack(object):
             normalisation_factor = nw_set.get_normalisation_factor(
                 damage_category)
             if normalisation_factor is not None:
-                normalisation_factor *= damage_factor
+                normalisation_factor = damage_factor / normalisation_factor
             f = {'@type': 'NwFactor',
                  'impactCategory': {'@type': 'ImpactCategory',
                                     '@id': impact.uid},
