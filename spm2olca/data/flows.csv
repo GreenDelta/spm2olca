@@ -384,6 +384,7 @@
 "Amitrole";"Emissions to air";"Unspecified";"kg";"93fd2afd-bb4f-4bb1-b2a0-0f7f8663764f";"Amitrole";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Ammonia, as N";"Emissions to air";"low. pop.";"kg";"0e0f75b3-2de4-4fbd-aee5-e0406b593ea8";"Ammonia, as N";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Ammonia, as N";"Emissions to water";"Unspecified";"kg";"c5ff9afc-4c08-40cb-9150-c2465be5cd3c";"Ammonia, as N";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Ammonia";"Emissions to air";"";"kg";"87883a4e-1e3e-4c9d-90c0-f1bea36f8014";"Ammonia";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Ammonia";"Emissions to air";"high. pop.";"kg";"9990b51b-7023-4700-bca0-1a32ef921f74";"Ammonia";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Ammonia";"Emissions to air";"low. pop.";"kg";"0f440cc0-0f74-446d-99d6-8ff0e97a2444";"Ammonia";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Ammonia";"Emissions to air";"Unspecified";"kg";"87883a4e-1e3e-4c9d-90c0-f1bea36f8014";"Ammonia";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -453,6 +454,7 @@
 "Arsenic trioxide";"Emissions to air";"Unspecified";"kg";"08a91e70-3ddc-11dd-97d8-0050c2490048";"Arsenic trioxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Arsenic trioxide";"Emissions to soil";"agricultural";"kg";"e54129f3-f4ad-4879-85e1-24c1146052bb";"Arsenic trioxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Arsenic trioxide";"Emissions to water";"Unspecified";"kg";"9675d0ec-b711-4998-b180-f1263be1b13c";"Arsenic trioxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Arsenic";"Emissions to air";"";"kg";"dc6dbdaa-9f13-43a8-8af5-6603688c6ad0";"Arsenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Arsenic";"Emissions to air";"high. pop.";"kg";"f4d0a2c8-efef-4188-85da-5801097389a2";"Arsenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Arsenic";"Emissions to air";"low. pop.";"kg";"7348af7c-e102-4a03-a0df-efce16469eed";"Arsenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Arsenic";"Emissions to air";"low. pop., long-term";"kg";"ed751c30-a896-44f3-9a83-2a5328dde94d";"Arsenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -460,6 +462,7 @@
 "Arsenic";"Emissions to soil";"";"kg";"fc84887d-158e-4067-80dc-9743165bd70d";"Arsenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Arsenic";"Emissions to soil";"agricultural";"kg";"4673a799-36a5-4359-ac6a-fa933281bc93";"Arsenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Arsenic";"Emissions to soil";"industrial";"kg";"ebc4c2a3-c004-4053-8048-f41fdd9324c8";"Arsenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Arsenic";"Emissions to water";"";"kg";"e1bd008f-c3c2-47f1-ab60-35e1a842acc0";"Arsenic, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Arsenic";"Emissions to water";"groundwater";"kg";"1f607ae2-b42d-4411-90b8-e9bbac66a554";"Arsenic, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Arsenic";"Emissions to water";"groundwater, long-term";"kg";"e60edb16-3c74-415b-9aff-a22a6f49fecb";"Arsenic, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Arsenic";"Emissions to water";"lake";"kg";"0cc4fa9c-ed07-4249-988d-6b2fe84b7dff";"Arsenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -493,6 +496,7 @@
 "Azoxystrobin";"Emissions to air";"Unspecified";"kg";"f05b757f-91c9-40d1-b843-24bc9d889c84";"Azoxystrobin";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Azoxystrobin";"Emissions to soil";"agricultural";"kg";"e69b028e-e549-4869-ae4a-b85ef8bcb7a9";"Azoxystrobin";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Azoxystrobin";"Emissions to water";"Unspecified";"kg";"42076160-1689-4a39-b6cb-85fc2e1c6f85";"Azoxystrobin";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"BOD5, Biological Oxygen Demand";"Emissions to water";"";"kg";"91955aba-6ebc-4413-9342-f0298860b4aa";"BOD5, Biological Oxygen Demand";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "BOD5, Biological Oxygen Demand";"Emissions to water";"groundwater";"kg";"57c27ba7-a61a-4932-8cd5-095c88ff0245";"BOD5, Biological Oxygen Demand";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "BOD5, Biological Oxygen Demand";"Emissions to water";"groundwater, long-term";"kg";"aedea697-930a-4a0e-9e4f-b9c369aa9a33";"BOD5, Biological Oxygen Demand";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "BOD5, Biological Oxygen Demand";"Emissions to water";"ocean";"kg";"f012d2d5-ebb4-4531-8285-0b98af3dcbd4";"BOD5, Biological Oxygen Demand";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -515,6 +519,7 @@
 "Barium";"Emissions to soil";"";"kg";"99cd88f6-16b7-4b28-895c-2f42101f634b";"Barium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Barium";"Emissions to soil";"agricultural";"kg";"f8199e39-7354-44ad-92d8-6a2cc3bac24e";"Barium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Barium";"Emissions to soil";"industrial";"kg";"5719929a-8c5b-48cc-a039-b11a9f380467";"Barium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Barium";"Emissions to water";"";"kg";"0e1c17ae-8144-4714-a7cd-786a5480f423";"Barium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Barium";"Emissions to water";"groundwater";"kg";"d68f41b3-6887-49a8-8efa-96812f8ec9f6";"Barium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Barium";"Emissions to water";"groundwater, long-term";"kg";"3184c902-c587-4fd7-bd89-769d3cf30072";"Barium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Barium";"Emissions to water";"ocean";"kg";"95ad40ec-c34b-49fc-a7dc-0e13172ac105";"Barium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -604,11 +609,13 @@
 "Benzene, dichloro-";"Emissions to air";"low. pop.";"kg";"6b4a1aac-0d2d-4f5f-ac44-1d9d7475ea8b";"Benzene, dichloro-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene, dichloro-";"Emissions to air";"Unspecified";"kg";"7f47227c-f35d-4747-853d-b7364fef2f7e";"Benzene, dichloro-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene, dichloro-";"Emissions to water";"Unspecified";"kg";"cea14418-ef39-4a1c-9d5a-be791e293a37";"Benzene, dichloro-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Benzene, ethyl-";"Emissions to air";"";"kg";"88ef28f1-cfd5-44a0-ac34-01acf2db84a0";"Benzene, ethyl-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene, ethyl-";"Emissions to air";"high. pop.";"kg";"7c09916a-b6b5-47f5-bdf6-30d2511beb82";"Benzene, ethyl-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene, ethyl-";"Emissions to air";"low. pop.";"kg";"e0e605c8-370b-4b5a-b6d4-2e7a5a1a6709";"Benzene, ethyl-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene, ethyl-";"Emissions to air";"Unspecified";"kg";"88ef28f1-cfd5-44a0-ac34-01acf2db84a0";"Benzene, ethyl-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene, ethyl-";"Emissions to soil";"industrial";"kg";"f22bb740-3bb3-46eb-8a08-6f3e48bd025c";"Benzene, ethyl-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene, ethyl-";"Emissions to soil";"Unspecified";"kg";"bd87711a-ca51-4601-8d81-7ea58f2f7362";"Benzene, ethyl-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Benzene, ethyl-";"Emissions to water";"";"kg";"3dd549fd-825c-4ceb-a5f9-2988d322dc5d";"Benzene, ethyl-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene, ethyl-";"Emissions to water";"ocean";"kg";"a5634f8a-d2f3-4e9a-8ee5-6f11234b9b1e";"Benzene, ethyl-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene, ethyl-";"Emissions to water";"river";"kg";"4abbbc48-a8d0-4c3a-9dea-4e67f1505230";"Benzene, ethyl-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene, ethyl-";"Emissions to water";"Unspecified";"kg";"3dd549fd-825c-4ceb-a5f9-2988d322dc5d";"Benzene, ethyl-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -629,12 +636,14 @@
 "Benzene, pentachloronitro-";"Emissions to soil";"agricultural";"kg";"99f78a2c-48e3-492c-aa5a-ed0c2f24a1a0";"Quintozene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene, pentachloronitro-";"Emissions to water";"Unspecified";"kg";"26c197e9-6d1f-42b5-a73a-ff6e1b46e639";"Quintozene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene, pentamethyl-";"Emissions to water";"Unspecified";"kg";"20c282c3-d3ef-4792-953f-dcd1b64c5063";"Benzene, pentamethyl-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Benzene";"Emissions to air";"";"kg";"28999907-a8a7-45b3-857e-836495ca2aa0";"Benzene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene";"Emissions to air";"high. pop.";"kg";"1bb6a502-3ff9-4a79-835c-5588b855f1f5";"Benzene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene";"Emissions to air";"low. pop.";"kg";"5e883a00-04e6-4d96-8dce-12d7117c6635";"Benzene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene";"Emissions to air";"stratosphere + troposphere";"kg";"eb15dd66-43ee-4161-ac90-2cd6d19ca72d";"Benzene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene";"Emissions to air";"Unspecified";"kg";"28999907-a8a7-45b3-857e-836495ca2aa0";"Benzene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene";"Emissions to soil";"industrial";"kg";"eba2488b-793f-4ef7-bb4f-f860cdd078e3";"Benzene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene";"Emissions to soil";"Unspecified";"kg";"b8d35216-a196-42a5-a211-4b09dc646706";"Benzene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Benzene";"Emissions to water";"";"kg";"31ba993d-f8aa-44c0-bae1-b6c2081144f6";"Benzene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene";"Emissions to water";"ocean";"kg";"19108dfd-9b70-4fca-bac5-d523f8b5d3c0";"Benzene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene";"Emissions to water";"river";"kg";"a1891db2-db98-45fc-ae0e-b3d3c17850c5";"Benzene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzene";"Emissions to water";"Unspecified";"kg";"31ba993d-f8aa-44c0-bae1-b6c2081144f6";"Benzene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -655,6 +664,7 @@
 "Benzidine";"Emissions to water";"Unspecified";"kg";"5b123dc8-9cb7-40de-92f5-23e8dc6b7d1a";"benzidine";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzo(a)anthracene";"Emissions to air";"Unspecified";"kg";"4d54a087-6fd2-4cb9-b1bc-3cc4659b3422";"Benzo(a)anthracene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzo(a)fluoranthene";"Emissions to air";"Unspecified";"kg";"44acdbf1-5193-4fda-9fa0-982810c0ff4a";"Benzo(a)fluoranthene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Benzo(a)pyrene";"Emissions to air";"";"kg";"5e13c2ab-5466-4ff5-816d-702dfdf25f76";"Benzo(a)pyrene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzo(a)pyrene";"Emissions to air";"high. pop.";"kg";"2cbb504a-ce2f-40e9-9d38-e130e95a1242";"Benzo(a)pyrene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzo(a)pyrene";"Emissions to air";"low. pop.";"kg";"81c4ba39-8a3f-4a43-97b4-401605bbebf5";"Benzo(a)pyrene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Benzo(a)pyrene";"Emissions to air";"Unspecified";"kg";"5e13c2ab-5466-4ff5-816d-702dfdf25f76";"Benzo(a)pyrene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -864,6 +874,7 @@
 "C.I. direct blue 218";"Emissions to soil";"industrial";"kg";"1e21849f-b21b-4948-8410-1eba6152d874";"C.I. direct blue 218";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "C.I. direct blue 218";"Emissions to soil";"Unspecified";"kg";"ea9f2ca3-791f-4b65-a7d6-2a14b2c90ef5";"C.I. direct blue 218";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "CFCs, unspecified";"Emissions to water";"Unspecified";"kg";"277c5734-1577-40d5-9769-4a78bc8d8cec";"CFCs, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"COD, Chemical Oxygen Demand";"Emissions to water";"";"kg";"961ccd56-2eee-4f57-bb18-fc4362b49000";"COD, Chemical Oxygen Demand";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "COD, Chemical Oxygen Demand";"Emissions to water";"groundwater";"kg";"be10dd54-eb4d-48ae-9e14-7d79ce8b170d";"COD, Chemical Oxygen Demand";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "COD, Chemical Oxygen Demand";"Emissions to water";"groundwater, long-term";"kg";"a8fea8cf-9b09-49fc-aa58-5a732494a2a0";"COD, Chemical Oxygen Demand";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "COD, Chemical Oxygen Demand";"Emissions to water";"ocean";"kg";"ec76fb5c-b402-416b-825c-53e074fe7525";"COD, Chemical Oxygen Demand";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -873,6 +884,7 @@
 "Cadmium compounds";"Emissions to air";"Unspecified";"kg";"4234897b-8639-491b-b0f0-8f65af9fbcc4";"Cadmium compounds";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Cadmium compounds";"Emissions to soil";"industrial";"kg";"24c2fd35-bdc7-4665-82a4-eb6c0674712e";"Cadmium compounds";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Cadmium compounds";"Emissions to water";"Unspecified";"kg";"b5cdd5eb-4f78-4476-97db-6e169c917870";"Cadmium compounds";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Cadmium";"Emissions to air";"";"kg";"1c5a7322-9261-4d59-a692-adde6c12de92";"Cadmium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Cadmium";"Emissions to air";"high. pop.";"kg";"36e53653-1338-42c7-816c-f6667809e0b1";"Cadmium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Cadmium";"Emissions to air";"low. pop.";"kg";"e2d58f90-9aac-4ac4-87f7-bbd6cfc358e3";"Cadmium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Cadmium";"Emissions to air";"low. pop., long-term";"kg";"23eaa36d-add4-4219-961e-ca7104dc0de9";"Cadmium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -881,6 +893,7 @@
 "Cadmium";"Emissions to soil";"";"kg";"12d6029e-3801-42ee-a1bc-1ebf936884fc";"Cadmium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Cadmium";"Emissions to soil";"agricultural";"kg";"e429b852-e421-4fcb-8a9b-b0241863bfb2";"Cadmium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Cadmium";"Emissions to soil";"industrial";"kg";"89721e33-60fa-4447-bfc6-2f27d44a7893";"Cadmium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Cadmium";"Emissions to water";"";"kg";"2712fe5f-0d3c-4c8e-8bc4-26c604413849";"Cadmium, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Cadmium";"Emissions to water";"groundwater";"kg";"3937f5a5-b4a4-434d-9fc3-1d29064fc3f8";"Cadmium, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Cadmium";"Emissions to water";"groundwater, long-term";"kg";"4ce23896-a82f-49f1-a8e3-8848734805a3";"Cadmium, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Cadmium";"Emissions to water";"lake";"kg";"68701316-d3f5-4e08-8814-6b3b28712d85";"Cadmium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -940,9 +953,11 @@
 "Carbofuran";"Emissions to soil";"agricultural";"kg";"3c054a6e-2f9c-4e5e-9231-c61bc85a250a";"Carbofuran";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Carbofuran";"Emissions to water";"Unspecified";"kg";"63e7b030-8549-11e0-9d78-0800200c9a66";"Carbofuran";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Carbon black";"Emissions to air";"Unspecified";"kg";"b978d369-ac8b-4c1e-b010-d0e0406733d9";"Carbon black";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Carbon dioxide, biogenic";"Emissions to air";"";"kg";"eba59fd6-f37e-41dc-9ca3-c7ea22d602c7";"Carbon dioxide, biogenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Carbon dioxide, biogenic";"Emissions to air";"high. pop.";"kg";"73ed05cc-9727-4abf-9516-4b5c0fe54a16";"Carbon dioxide, biogenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Carbon dioxide, biogenic";"Emissions to air";"low. pop.";"kg";"d6235194-e4e6-4548-bfa3-ac095131aef4";"Carbon dioxide, biogenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Carbon dioxide, biogenic";"Emissions to air";"Unspecified";"kg";"eba59fd6-f37e-41dc-9ca3-c7ea22d602c7";"Carbon dioxide, biogenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Carbon dioxide, fossil";"Emissions to air";"";"kg";"349b29d1-3e58-4c66-98b9-9d1a076efd2e";"Carbon dioxide, fossil";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Carbon dioxide, fossil";"Emissions to air";"high. pop.";"kg";"f9749677-9c9f-4678-ab55-c607dfdc2cb9";"Carbon dioxide, fossil";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Carbon dioxide, fossil";"Emissions to air";"low. pop.";"kg";"aa7cac3a-3625-41d4-bc54-33e2cf11ec46";"Carbon dioxide, fossil";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Carbon dioxide, fossil";"Emissions to air";"stratosphere + troposphere";"kg";"16eeda8a-1ea2-408e-ab37-2648495058dd";"Carbon dioxide, fossil";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -963,6 +978,7 @@
 "Carbon monoxide, biogenic";"Emissions to air";"";"kg";"2cb2333c-1599-46cf-8435-3dffce627524";"Carbon monoxide, biogenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Carbon monoxide, biogenic";"Emissions to air";"high. pop.";"kg";"9afa0173-ecbd-4f2c-9c5c-b3128a032812";"Carbon monoxide, biogenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Carbon monoxide, biogenic";"Emissions to air";"low. pop.";"kg";"b821ad93-ba6a-4d74-b6ae-ca12cd9563d7";"Carbon monoxide, biogenic";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Carbon monoxide, fossil";"Emissions to air";"";"kg";"ba2f3f82-c93a-47a5-822a-37ec97495275";"Carbon monoxide, fossil";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Carbon monoxide, fossil";"Emissions to air";"high. pop.";"kg";"6edcc2df-88a3-48e1-83d8-ffc38d31c35b";"Carbon monoxide, fossil";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Carbon monoxide, fossil";"Emissions to air";"low. pop.";"kg";"099b36ab-4c03-4587-87f4-2f81e337afb8";"Carbon monoxide, fossil";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Carbon monoxide, fossil";"Emissions to air";"stratosphere + troposphere";"kg";"a3beb5ac-5149-47f6-a035-53fc5030f10a";"Carbon monoxide, fossil";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -1075,6 +1091,7 @@
 "Chloroacetic acid";"Emissions to water";"Unspecified";"kg";"c8bd2194-b2fc-47c3-bd0b-3341e4b23970";"Chloroacetic acid";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chloroacetyl chloride";"Emissions to water";"river";"kg";"bcbf2ad9-c338-4e11-be56-9e07113dafb3";"Chloroacetyl chloride";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chlorobenzilate";"Emissions to air";"Unspecified";"kg";"4071945b-068c-480d-a695-6bc65876491e";"Chlorobenzilate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Chloroform";"Emissions to air";"";"kg";"fbf6ab3a-74e3-4cbe-b61d-959728bdce46";"Chloroform";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chloroform";"Emissions to air";"high. pop.";"kg";"4cadbc9f-0472-4bb9-a942-df5b90e37878";"Chloroform";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chloroform";"Emissions to air";"low. pop.";"kg";"fa9b9736-6de8-4bd6-ba22-1bd78c798373";"Chloroform";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chloroform";"Emissions to air";"Unspecified";"kg";"fbf6ab3a-74e3-4cbe-b61d-959728bdce46";"Chloroform";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -1130,6 +1147,7 @@
 "Chromium compounds";"Emissions to water";"Unspecified";"kg";"d9a56035-5be3-4b69-b527-8f848a889dc9";"Chromium compounds";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chromium-51";"Emissions to air";"low. pop.";"kBq";"caffa231-9312-46b9-bbdf-c2782d225ef0";"Chromium-51";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Chromium-51";"Emissions to water";"river";"kBq";"41b60e19-f873-4a47-bc2f-0cbc5142fc7c";"Chromium-51";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
+"Chromium";"Emissions to air";"";"kg";"e142b577-e934-4085-9a07-3983d4d92afb";"Chromium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chromium";"Emissions to air";"high. pop.";"kg";"7705f0e1-5b14-44f4-b330-1245b5c7fc08";"Chromium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chromium";"Emissions to air";"low. pop.";"kg";"4d40d8e3-9bc7-4ab1-ac5c-4f4a76fda8e5";"Chromium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chromium";"Emissions to air";"stratosphere + troposphere";"kg";"2a5ed451-12a2-47db-b4dc-fa0bfbc01d79";"Chromium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -1137,6 +1155,7 @@
 "Chromium";"Emissions to soil";"";"kg";"e0336c9b-a0ff-4ae3-b8bb-ca1e46bbbc11";"Chromium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chromium";"Emissions to soil";"agricultural";"kg";"e7881581-21b3-4f5c-bd63-6b0684b5e712";"Chromium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chromium";"Emissions to soil";"industrial";"kg";"e65a9c58-21f1-48b6-b738-d05a8f10e5f3";"Chromium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Chromium";"Emissions to water";"";"kg";"30f484ee-dec4-47ae-8e92-d00d4b93fe05";"Chromium, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chromium";"Emissions to water";"groundwater";"kg";"1c87de06-e58f-4684-a54c-d29f1a251a87";"Chromium, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chromium";"Emissions to water";"ocean";"kg";"d98f0ec0-bf19-4c90-a457-a8593dec497f";"Chromium, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Chromium";"Emissions to water";"river";"kg";"e34d3da4-a3d5-41be-84b5-458afe32c990";"Chromium, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -1246,6 +1265,7 @@
 "Copper, Cu 0.38%, Au 9.7E-4%, Ag 9.7E-4%, Zn 0.63%, Pb 0.014%, in ore";"Resources";"in ground";"kg";"5afa470c-ab8c-4ec3-8a18-5c0bed973571";"Copper, Cu 0.38%, Au 9.7E-4%, Ag 9.7E-4%, Zn 0.63%, Pb 0.014%, in ore, in ground";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Copper, Cu 3.2E+0%, Pt 2.5E-4%, Pd 7.3E-4%, Rh 2.0E-5%, Ni 2.3E+0% in ore";"Resources";"in ground";"kg";"73b7f080-b7ae-417c-b740-b4c9eabfb35a";"Cu, Cu 3.2E+0%, Pt 2.5E-4%, Pd 7.3E-4%, Rh 2.0E-5%, Ni 2.3E+0% in ore, in ground";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Copper, Cu 5.2E-2%, Pt 4.8E-4%, Pd 2.0E-4%, Rh 2.4E-5%, Ni 3.7E-2% in ore";"Resources";"in ground";"kg";"8508a83c-6a37-4159-93cc-21a2645390ab";"Cu, Cu 5.2E-2%, Pt 4.8E-4%, Pd 2.0E-4%, Rh 2.4E-5%, Ni 3.7E-2% in ore, in ground";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Copper";"Emissions to air";"";"kg";"ec8144d6-d123-43b1-9c17-a295422a0498";"Copper";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Copper";"Emissions to air";"high. pop.";"kg";"88cde01c-df69-40bb-9b14-6eac71bea5b8";"Copper";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Copper";"Emissions to air";"low. pop.";"kg";"e336eee7-148a-4d1c-8027-780cbfafa12b";"Copper";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Copper";"Emissions to air";"low. pop., long-term";"kg";"fd153f15-1d16-410a-91fa-04d205e36c43";"Copper";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -1548,6 +1568,7 @@
 "Dimethyldithiocarbamic acid, sodium salt";"Emissions to air";"Unspecified";"kg";"02d2a022-e75a-4e9f-9e03-c7cf36edfa0f";"sodium dimethyldithiocarbamate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Dimethyldithiocarbamic acid, sodium salt";"Emissions to soil";"industrial";"kg";"4b48754c-2df1-49f6-93e6-90d6e24b8d92";"sodium dimethyldithiocarbamate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Dimethyldithiocarbamic acid, sodium salt";"Emissions to water";"Unspecified";"kg";"333c667f-5264-429f-86cb-88aaa6de2c18";"sodium dimethyldithiocarbamate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Dinitrogen monoxide";"Emissions to air";"";"kg";"20185046-64bb-4c09-a8e7-e8a9e144ca98";"Dinitrogen monoxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Dinitrogen monoxide";"Emissions to air";"high. pop.";"kg";"6dc1b46f-ee89-4495-95c4-b8a637bcd6cb";"Dinitrogen monoxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Dinitrogen monoxide";"Emissions to air";"low. pop.";"kg";"afd6d670-bbb0-4625-9730-04088a5b035e";"Dinitrogen monoxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Dinitrogen monoxide";"Emissions to air";"stratosphere + troposphere";"kg";"473826ae-125a-4b02-8c8e-c84322491d80";"Dinitrogen monoxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -1733,6 +1754,7 @@
 "Ethane, 1,2-dichloro-1,1-difluoro-, HCFC-132b";"Emissions to air";"low. pop.";"kg";"b10f75c7-c710-4e30-bbca-3ebe7c6b3f1f";"Ethane, 1,2-dichloro-1,1-difluoro-, HCFC-132b";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Ethane, 1,2-dichloro-1,1-difluoro-, HCFC-132b";"Emissions to air";"Unspecified";"kg";"ae34b7ce-0383-4c22-b791-ea600f547ea0";"Ethane, 1,2-dichloro-1,1-difluoro-, HCFC-132b";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Ethane, 1,2-dichloro-1,1-difluoro-, HCFC-132b";"Emissions to water";"Unspecified";"kg";"4796221e-6f22-46d5-a501-e665ba96c86d";"Ethane, 1,2-dichloro-1,1-difluoro-, HCFC-132b";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Ethane, 1,2-dichloro-";"Emissions to air";"";"kg";"03758df7-503a-400e-bc7b-ec05825761a5";"Ethane, 1,2-dichloro-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Ethane, 1,2-dichloro-";"Emissions to air";"high. pop.";"kg";"468bebea-17ee-49d3-b11d-c603d91c67c8";"Ethane, 1,2-dichloro-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Ethane, 1,2-dichloro-";"Emissions to air";"low. pop.";"kg";"89324b2f-1e73-4eb1-9716-96b9be0349ac";"Ethane, 1,2-dichloro-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Ethane, 1,2-dichloro-";"Emissions to air";"Unspecified";"kg";"03758df7-503a-400e-bc7b-ec05825761a5";"Ethane, 1,2-dichloro-";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -2209,9 +2231,11 @@
 "Hydrocarbons, chlorinated";"Emissions to air";"low. pop.";"kg";"d6626dfb-3ac8-4169-9e75-54c41ef2a582";"Hydrocarbons, chlorinated";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Hydrocarbons, unspecified";"Emissions to air";"low. pop.";"kg";"63e7d74c-8549-11e0-9d78-0800200c9a66";"Hydrocarbons, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Hydrocarbons, unspecified";"Emissions to air";"Unspecified";"kg";"63e7d74d-8549-11e0-9d78-0800200c9a66";"Hydrocarbons, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Hydrocarbons, unspecified";"Emissions to water";"";"kg";"e620a933-c348-4e7e-8893-ab0a0f681c7e";"Hydrocarbons, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Hydrocarbons, unspecified";"Emissions to water";"ocean";"kg";"049a1473-3a62-4121-982b-5d15d0f2c683";"Hydrocarbons, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Hydrocarbons, unspecified";"Emissions to water";"river";"kg";"49c42751-1b0b-4ab1-8e70-032e991ce6fd";"Hydrocarbons, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Hydrocarbons, unspecified";"Emissions to water";"Unspecified";"kg";"e620a933-c348-4e7e-8893-ab0a0f681c7e";"Hydrocarbons, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Hydrogen chloride";"Emissions to air";"";"kg";"c941d6d0-a56c-4e6c-95de-ac685635218d";"Hydrogen chloride";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Hydrogen chloride";"Emissions to air";"high. pop.";"kg";"afcbd980-14c2-4e1d-a0aa-5f6464e5c76b";"Hydrogen chloride";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Hydrogen chloride";"Emissions to air";"low. pop.";"kg";"68e32537-beae-41c2-be72-74df4d273c11";"Hydrogen chloride";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Hydrogen chloride";"Emissions to air";"stratosphere + troposphere";"kg";"50f3bc1e-fafc-44a2-9800-4468d8c3b643";"Hydrogen chloride";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -2234,6 +2258,7 @@
 "Hydrogen peroxide";"Emissions to air";"high. pop.";"kg";"8d179ea0-7b52-441e-954b-b5349d66340f";"Hydrogen peroxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Hydrogen peroxide";"Emissions to soil";"agricultural";"kg";"534e8119-180c-4d0f-884c-4e0a1dead6c7";"Hydrogen peroxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Hydrogen peroxide";"Emissions to water";"river";"kg";"98313bb5-3f35-4e11-bf3e-03ad2dae591b";"Hydrogen peroxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Hydrogen sulfide";"Emissions to air";"";"kg";"20d4d821-f4f7-4017-8810-f822fcdf619e";"Hydrogen sulfide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Hydrogen sulfide";"Emissions to air";"high. pop.";"kg";"e3cfaa07-9b68-4461-a06f-a0e4e59d41d3";"Hydrogen sulfide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Hydrogen sulfide";"Emissions to air";"low. pop.";"kg";"0b0ea9d1-9c54-4e23-bcfc-1b8fc2cf0358";"Hydrogen sulfide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Hydrogen sulfide";"Emissions to air";"Unspecified";"kg";"20d4d821-f4f7-4017-8810-f822fcdf619e";"Hydrogen sulfide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -2383,13 +2408,16 @@
 "Lead compounds";"Emissions to water";"Unspecified";"kg";"779cbb0c-e48e-49f5-a10d-5837373885ea";"Lead compounds";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Lead, Pb 0.014%, Au 9.7E-4%, Ag 9.7E-4%, Zn 0.63%, Cu 0.38%, in ore";"Resources";"in ground";"kg";"2d9f9c6b-8dca-4641-8ff9-53cb8beabd13";"Lead, Pb 0.014%, Au 9.7E-4%, Ag 9.7E-4%, Zn 0.63%, Cu 0.38%, in ore, in ground";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Lead-210/kg";"Emissions to water";"Unspecified";"kg";"e334f8b6-e182-4fc5-a57a-c4ad69d2c498";"Lead-210/kg";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Lead-210";"Emissions to air";"";"kBq";"00e73fdb-98df-4a03-8290-79931cddfd12";"Lead-210";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Lead-210";"Emissions to air";"high. pop.";"kBq";"356c6086-4835-4a0d-b1f2-10f8b6656d23";"Lead-210";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Lead-210";"Emissions to air";"low. pop.";"kBq";"e8783a01-d3f5-4c08-b7b0-12af0f33c20d";"Lead-210";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Lead-210";"Emissions to air";"Unspecified";"kBq";"00e73fdb-98df-4a03-8290-79931cddfd12";"Lead-210";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
+"Lead-210";"Emissions to water";"";"kBq";"2cfc5ba4-3db2-4193-9e81-b61e75ba1706";"Lead-210";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Lead-210";"Emissions to water";"groundwater";"kBq";"85365e41-8102-4f9b-afb7-d7d7e6e07249";"Lead-210";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Lead-210";"Emissions to water";"ocean";"kBq";"8844a749-f21f-4968-bff9-c4d970efe790";"Lead-210";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Lead-210";"Emissions to water";"river";"kBq";"f8485945-7c0d-4c57-bff2-211b4dc97df3";"Lead-210";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Lead-210";"Emissions to water";"Unspecified";"kBq";"2cfc5ba4-3db2-4193-9e81-b61e75ba1706";"Lead-210";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
+"Lead";"Emissions to air";"";"kg";"8e123669-94d3-41d8-9480-a79211fe7c43";"Lead";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Lead";"Emissions to air";"high. pop.";"kg";"6a903634-c97f-4c49-a7c0-88f0e6ac7a23";"Lead";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Lead";"Emissions to air";"low. pop.";"kg";"2718482b-8399-442e-b89a-52fbcc22d2e6";"Lead";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Lead";"Emissions to air";"low. pop., long-term";"kg";"9ee7f4ab-b826-47ae-8623-e138f944b42e";"Lead";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -2398,6 +2426,7 @@
 "Lead";"Emissions to soil";"";"kg";"739234c8-5359-48b4-983f-9cb170d68c8d";"Lead";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Lead";"Emissions to soil";"agricultural";"kg";"4010918f-7fd0-4925-8fbb-8fd7a44a806c";"Lead";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Lead";"Emissions to soil";"industrial";"kg";"67652827-017f-4856-8d0a-c97bac4c6562";"Lead";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Lead";"Emissions to water";"";"kg";"31c4d160-b21e-41b3-b9c1-3d7a72377653";"Lead";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Lead";"Emissions to water";"groundwater";"kg";"c864aa15-0abc-41ad-9889-348106e485d8";"Lead";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Lead";"Emissions to water";"groundwater, long-term";"kg";"0ff15165-d761-48c9-9814-2d1dcdd56857";"Lead";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Lead";"Emissions to water";"lake";"kg";"540106ac-eb8e-446b-91f5-3fdbad5a5886";"Lead";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -2519,6 +2548,7 @@
 "Mercury compounds";"Emissions to air";"Unspecified";"kg";"7ae398b9-8532-11e0-9d78-0800200c9a66";"Mercury compounds, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Mercury compounds";"Emissions to soil";"industrial";"kg";"619da854-f081-439c-ad3f-9f0321b03294";"Mercury compounds, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Mercury compounds";"Emissions to water";"Unspecified";"kg";"ac4ae433-2052-4ffe-84f1-a82c8fe0e02a";"Mercury compounds, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Mercury";"Emissions to air";"";"kg";"71234253-b3a7-4dfe-b166-a484ad15bee7";"Mercury";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Mercury";"Emissions to air";"high. pop.";"kg";"a850e6de-a007-432f-be7f-ce6e2cf1f2ae";"Mercury";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Mercury";"Emissions to air";"low. pop.";"kg";"5ec9c16a-959d-44cd-be7d-a935727d2151";"Mercury";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Mercury";"Emissions to air";"low. pop., long-term";"kg";"dc90db73-6f27-403d-baf1-cb7e0b6cae31";"Mercury";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -2527,6 +2557,7 @@
 "Mercury";"Emissions to soil";"agricultural";"kg";"ed2d49f8-110d-4db4-9488-f61c349e6117";"Mercury";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Mercury";"Emissions to soil";"industrial";"kg";"e2128dc4-e065-4030-81b3-c978d7bc48ec";"Mercury";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Mercury";"Emissions to soil";"Unspecified";"kg";"f7eca11f-546f-4712-ad80-724254685596";"Mercury";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Mercury";"Emissions to water";"";"kg";"9325957a-bee5-4f2d-8bd1-458729c5e49e";"Mercury";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Mercury";"Emissions to water";"groundwater";"kg";"e1aa92d7-9297-452e-ade0-e5e2acc52ad7";"Mercury";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Mercury";"Emissions to water";"groundwater, long-term";"kg";"40f89b03-64f8-466d-9480-bca47d8a435c";"Mercury";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Mercury";"Emissions to water";"lake";"kg";"aef694fb-8da8-4e26-8b7d-6769a6aa03a4";"Mercury";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -2616,6 +2647,7 @@
 "Methane, dichlorofluoro-, HCFC-21";"Emissions to air";"Unspecified";"kg";"04a6edb8-624a-484e-8f85-d771657adae7";"Methane, dichlorofluoro-, HCFC-21";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Methane, dichlorofluoro-, HCFC-21";"Emissions to water";"Unspecified";"kg";"2460ff3a-b368-4224-9c0d-0900fd29608f";"Methane, dichlorofluoro-, HCFC-21";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Methane, difluoro-, HFC-32";"Emissions to air";"Unspecified";"kg";"151212b4-079b-43a2-96d5-a6eef59166ac";"Methane, difluoro-, HFC-32";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Methane, fossil";"Emissions to air";"";"kg";"0795345f-c7ae-410c-ad25-1845784c75f5";"Methane, fossil";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Methane, fossil";"Emissions to air";"high. pop.";"kg";"5f7aad3d-566c-4d0d-ad59-e765f971aa0f";"Methane, fossil";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Methane, fossil";"Emissions to air";"low. pop.";"kg";"70ef743b-3ed5-4a6d-b192-fb6d62378555";"Methane, fossil";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Methane, fossil";"Emissions to air";"stratosphere + troposphere";"kg";"6b1b495b-70ee-4be6-b1c2-3031aa4d6add";"Methane, fossil";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -2633,6 +2665,7 @@
 "Methane, monochloro-, R-40";"Emissions to soil";"industrial";"kg";"e6b83a93-b03d-4246-bede-2ad301169f0c";"Methane, monochloro-, R-40";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Methane, monochloro-, R-40";"Emissions to soil";"Unspecified";"kg";"5e6a5695-423f-4efb-aea4-4996580fad9b";"Methane, monochloro-, R-40";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Methane, monochloro-, R-40";"Emissions to water";"Unspecified";"kg";"63e7d757-8549-11e0-9d78-0800200c9a66";"Methane, monochloro-, R-40";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Methane, tetrachloro-, CFC-10";"Emissions to air";"";"kg";"86d12e70-0c64-4ecf-ba52-114fa0c5d402";"Methane, tetrachloro-, R-10";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Methane, tetrachloro-, CFC-10";"Emissions to air";"high. pop.";"kg";"5c97dd6c-aaa5-4477-aaf8-dbd0674499c4";"Methane, tetrachloro-, R-10";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Methane, tetrachloro-, CFC-10";"Emissions to air";"low. pop.";"kg";"0f9f3e17-eb81-4adb-8170-049bc6b66728";"Methane, tetrachloro-, R-10";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Methane, tetrachloro-, CFC-10";"Emissions to air";"Unspecified";"kg";"86d12e70-0c64-4ecf-ba52-114fa0c5d402";"Methane, tetrachloro-, R-10";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -2804,6 +2837,7 @@
 "N-Nitrosomethylvinylamine";"Emissions to air";"Unspecified";"kg";"cb1dc124-f678-45e2-b0f4-dcf52803b598";"N-Nitrosomethylvinylamine";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "N-Nitrosomorpholine";"Emissions to air";"Unspecified";"kg";"3b30d735-1ad5-4afe-ba7b-8fea906c81c1";"N-Nitrosomorpholine";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "N-octy-bicycloheptene";"Emissions to soil";"agricultural";"kg";"38a13d6e-6fed-493d-8d54-91248692030a";"N-octy-bicycloheptene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"NMVOC, non-methane volatile organic compounds, unspecified origin";"Emissions to air";"";"kg";"d3260d0e-8203-4cbb-a45a-6a13131a5108";"NMVOC, non-methane volatile organic compounds, unspecified origin";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "NMVOC, non-methane volatile organic compounds, unspecified origin";"Emissions to air";"high. pop.";"kg";"175baa64-d985-4c5e-84ef-67cc3a1cf952";"NMVOC, non-methane volatile organic compounds, unspecified origin";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "NMVOC, non-methane volatile organic compounds, unspecified origin";"Emissions to air";"low. pop.";"kg";"33b38ccb-593b-4b11-b965-10d747ba3556";"NMVOC, non-methane volatile organic compounds, unspecified origin";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "NMVOC, non-methane volatile organic compounds, unspecified origin";"Emissions to air";"stratosphere + troposphere";"kg";"36c96aed-9335-4564-8cdd-46f01a13700c";"NMVOC, non-methane volatile organic compounds, unspecified origin";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -2839,6 +2873,7 @@
 "Nickel, 1.98% in silicates, 1.04% in crude ore";"Resources";"in ground";"kg";"e47e4e5f-6528-413d-a8fb-1cd1875fbd73";"Nickel, 1.98% in silicates, 1.04% in crude ore, in ground";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nickel, Ni 2.3E+0%, Pt 2.5E-4%, Pd 7.3E-4%, Rh 2.0E-5%, Cu 3.2E+0% in ore";"Resources";"in ground";"kg";"0d7f8b87-12f4-4e83-a5a2-854e2f2b47de";"Ni, Ni 2.3E+0%, Pt 2.5E-4%, Pd 7.3E-4%, Rh 2.0E-5%, Cu 3.2E+0% in ore, in ground";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nickel, Ni 3.7E-2%, Pt 4.8E-4%, Pd 2.0E-4%, Rh 2.4E-5%, Cu 5.2E-2% in ore";"Resources";"in ground";"kg";"febbfa6e-44d4-42a0-abcd-aec8a428f75e";"Ni, Ni 3.7E-2%, Pt 4.8E-4%, Pd 2.0E-4%, Rh 2.4E-5%, Cu 5.2E-2% in ore, in ground";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Nickel";"Emissions to air";"";"kg";"a5506f4b-113f-4713-95c3-c819dde6e48b";"Nickel";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nickel";"Emissions to air";"high. pop.";"kg";"e43a270f-4f88-4789-a0b8-7aba56677743";"Nickel";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nickel";"Emissions to air";"low. pop.";"kg";"e8fc62ba-678e-4706-97d2-b79d83e227d5";"Nickel";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nickel";"Emissions to air";"low. pop., long-term";"kg";"c89873de-cd23-4323-a948-f5cfeebd2fc9";"Nickel";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -2880,6 +2915,7 @@
 "Nitrate";"Emissions to air";"low. pop., long-term";"kg";"205617ae-ebc5-4245-8df6-8710d5d40615";"Nitrate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrate";"Emissions to soil";"";"kg";"7ed800d3-d2a5-4024-b9c8-6ed15d5ca9b6";"Nitrate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrate";"Emissions to soil";"agricultural";"kg";"47976b26-94a9-48fe-a48a-1ab2517d017d";"Nitrate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Nitrate";"Emissions to water";"";"kg";"5189de76-6bbb-44ba-8c42-5714f1b4371f";"Nitrate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrate";"Emissions to water";"groundwater";"kg";"b9291c72-4b1d-4275-8068-4c707dc3ce33";"Nitrate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrate";"Emissions to water";"groundwater, long-term";"kg";"b61057a3-a0bc-4158-882e-b819c4797419";"Nitrate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrate";"Emissions to water";"ocean";"kg";"43c700bb-0b3b-4fb1-8bd1-3d1da82b6844";"Nitrate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -2909,6 +2945,7 @@
 "Nitrogen dioxide";"Emissions to water";"Unspecified";"kg";"4e2156dc-6cc5-477d-9d7f-665407913542";"Nitrogen dioxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrogen fluoride";"Emissions to air";"high. pop.";"kg";"1fdc280a-34d3-4513-b110-3f526b17c443";"Nitrogen fluoride";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrogen fluoride";"Emissions to air";"Unspecified";"kg";"e79e03c3-5b19-45f6-b3f3-bf710c6663d2";"Nitrogen fluoride";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Nitrogen oxides";"Emissions to air";"";"kg";"c1b91234-6f24-417b-8309-46111d09c457";"Nitrogen oxides";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrogen oxides";"Emissions to air";"high. pop.";"kg";"d068f3e2-b033-417b-a359-ca4f25da9731";"Nitrogen oxides";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrogen oxides";"Emissions to air";"low. pop.";"kg";"77357947-ccc5-438e-9996-95e65e1e1bce";"Nitrogen oxides";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrogen oxides";"Emissions to air";"stratosphere + troposphere";"kg";"4841a0fe-c250-4a39-94a1-1bc31426c0f1";"Nitrogen oxides";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -2921,6 +2958,7 @@
 "Nitrogen, total";"Emissions to air";"Unspecified";"kg";"2bc834c0-860e-11e0-9d78-0800200c9a66";"Nitrogen, total";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrogen, total";"Emissions to water";"river";"kg";"9539fcaa-e792-3181-8825-03c8eb6afea4";"Nitrogen, total";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrogen, total";"Emissions to water";"Unspecified";"kg";"34a99cf0-860e-11e0-9d78-0800200c9a66";"Nitrogen, total";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Nitrogen";"Emissions to air";"";"kg";"04176bc2-32ec-48b4-88f7-65f57c6d1293";"Nitrogen";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrogen";"Emissions to air";"Unspecified";"kg";"04176bc2-32ec-48b4-88f7-65f57c6d1293";"Nitrogen";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrogen";"Emissions to soil";"agricultural";"kg";"7ce704ce-2a44-448b-b198-f00bf5928b4b";"Nitrogen";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Nitrogen";"Emissions to soil";"industrial";"kg";"eadc37a4-8b1e-4dd2-8f4a-39d89d5f39ba";"Nitrogen";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -3081,6 +3119,7 @@
 "Parathion";"Emissions to water";"Unspecified";"kg";"b54b9f4b-8b87-4dc9-b3bb-2ee4766c4e27";"Parathion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Particulates, < 10 um";"Emissions to air";"low. pop.";"kg";"d42f8d08-08f6-42ef-ae04-dc2025462880";"Particulates, < 10 um";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Particulates, < 10 um";"Emissions to air";"Unspecified";"kg";"08a91e70-3ddc-11dd-91be-0050c2490048";"Particulates, < 10 um";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Particulates, < 2.5 um";"Emissions to air";"";"kg";"21e46cb8-6233-4c99-bac3-c41d2ab99498";"Particulates, < 2.5 um";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Particulates, < 2.5 um";"Emissions to air";"high. pop.";"kg";"230d8a0a-517c-43fe-8357-1818dd12997a";"Particulates, < 2.5 um";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Particulates, < 2.5 um";"Emissions to air";"low. pop.";"kg";"66f50b33-fd62-4fdd-a373-c5b0de7de00d";"Particulates, < 2.5 um";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Particulates, < 2.5 um";"Emissions to air";"low. pop., long-term";"kg";"051aaf7a-6c1a-4e86-999f-85d5f0830df6";"Particulates, < 2.5 um";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -3218,6 +3257,7 @@
 "Phosphate ore";"Resources";"in ground";"kg";"fe3009be-3a28-4e9a-b521-b57eae0f1443";"Phosphate ore, in ground";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Phosphate";"Emissions to air";"Unspecified";"kg";"63e7fe63-8549-11e0-9d78-0800200c9a66";"Phosphate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Phosphate";"Emissions to soil";"agricultural";"kg";"a60d4bd7-4973-49d4-8e0d-e0d267d800e8";"Phosphate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Phosphate";"Emissions to water";"";"kg";"c8791f3c-3c4a-4278-91c0-483797d14da2";"Phosphate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Phosphate";"Emissions to water";"groundwater";"kg";"329fc7d8-4011-4327-84e4-34ff76f0e42d";"Phosphate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Phosphate";"Emissions to water";"groundwater, long-term";"kg";"490b267b-f429-4d9a-ac79-224e37fb4d58";"Phosphate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Phosphate";"Emissions to water";"ocean";"kg";"3aaf9017-0d8a-42aa-9a60-cbc39e994e73";"Phosphate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -3242,6 +3282,7 @@
 "Phosphorus";"Emissions to soil";"agricultural";"kg";"c89a0749-40a5-4c9c-8770-c4295ea34977";"Phosphorus";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Phosphorus";"Emissions to soil";"industrial";"kg";"2f8952b0-c90c-4e3d-b546-52b862fc8f11";"Phosphorus";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Phosphorus";"Emissions to soil";"Unspecified";"kg";"8b0a4a41-c65c-4d94-b10c-94ddb98abdd2";"Phosphorus";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Phosphorus";"Emissions to water";"";"kg";"2d4b8ec1-8d53-4e62-8a11-ebc45909b02e";"Phosphorus";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Phosphorus";"Emissions to water";"groundwater";"kg";"b1fca66f-8e83-469a-a7b5-018e14d5d545";"Phosphorus";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Phosphorus";"Emissions to water";"ocean";"kg";"62f3d964-9b53-4d01-9ee0-04112dcfc6d2";"Phosphorus";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Phosphorus";"Emissions to water";"river";"kg";"9caf6b8a-03ae-478b-a6a0-d8423b0cd16a";"Phosphorus";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -3295,6 +3336,7 @@
 "Platinum";"Emissions to air";"low. pop.";"kg";"d4238781-b3da-4efc-b20f-a5ec1d9d85b6";"Platinum";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Plutonium-238";"Emissions to air";"low. pop.";"kBq";"59c2b461-3992-4b18-8f27-699f4880cc4e";"Plutonium-238";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Plutonium-alpha";"Emissions to air";"low. pop.";"kBq";"4f3ee6dc-f092-429b-82bc-b9538bdb751b";"Plutonium-alpha";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
+"Polonium-210";"Emissions to air";"";"kBq";"13738d15-2256-40f6-99da-d802e5f4c747";"Polonium-210";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Polonium-210";"Emissions to air";"high. pop.";"kBq";"ab046420-da89-48e5-9e05-2a2b703eb2fe";"Polonium-210";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Polonium-210";"Emissions to air";"low. pop.";"kBq";"44dd80c7-9960-4881-8431-939509b81f53";"Polonium-210";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Polonium-210";"Emissions to air";"Unspecified";"kBq";"13738d15-2256-40f6-99da-d802e5f4c747";"Polonium-210";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
@@ -3324,6 +3366,7 @@
 "Potassium dimethyldithiocarbamate";"Emissions to air";"low. pop.";"kg";"5b9cf26c-cb86-4055-977b-86b70dd4e9d6";"Potassium dimethyldithiocarbamate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Potassium dimethyldithiocarbamate";"Emissions to air";"Unspecified";"kg";"bc4e20e6-b13d-4c5e-9439-5a8a8dee38ea";"Potassium dimethyldithiocarbamate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Potassium phosphate";"Emissions to soil";"agricultural";"kg";"93a43cda-c4fc-4262-8a89-daa77c568ee9";"Potassium phosphate";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Potassium-40";"Emissions to air";"";"kBq";"4bc2ecf7-fbc3-4c74-81f6-30f9f4425d30";"Potassium-40";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Potassium-40";"Emissions to air";"high. pop.";"kBq";"e47a779e-8fcb-4d0e-bcff-b9b14a5be827";"Potassium-40";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Potassium-40";"Emissions to air";"low. pop.";"kBq";"7069a2cd-257a-4a29-b10f-1e21ed853709";"Potassium-40";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Potassium-40";"Emissions to air";"Unspecified";"kBq";"4bc2ecf7-fbc3-4c74-81f6-30f9f4425d30";"Potassium-40";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
@@ -3566,23 +3609,29 @@
 "Radium-224";"Emissions to water";"ocean";"kBq";"0a7de246-d762-4210-8656-56e1f26249b6";"Radium-224";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-224";"Emissions to water";"river";"kBq";"84b6df35-fd4f-4ed6-afc7-fb3285a489e8";"Radium-224";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-226/kg";"Emissions to water";"Unspecified";"kg";"2eced1c9-7cd5-4e44-9b6b-c096692f09df";"Radium-226/kg";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Radium-226";"Emissions to air";"";"kBq";"b912f4b4-34ac-4ec1-aba1-01b9c83683e5";"Radium-226";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-226";"Emissions to air";"high. pop.";"kBq";"1c02cff4-e852-489b-893c-d3ed30eb8ca5";"Radium-226";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-226";"Emissions to air";"low. pop.";"kBq";"d1679eda-eac2-4be4-876f-3be480c53dc4";"Radium-226";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-226";"Emissions to air";"Unspecified";"kBq";"b912f4b4-34ac-4ec1-aba1-01b9c83683e5";"Radium-226";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
+"Radium-226";"Emissions to water";"";"kBq";"d65a94b4-0479-42cc-8274-2db66e1e6aeb";"Radium-226";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-226";"Emissions to water";"groundwater";"kBq";"788c0461-92d9-4a39-b89b-e3c42a5c68ae";"Radium-226";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-226";"Emissions to water";"ocean";"kBq";"74a0aabb-e11b-4f3b-8921-45e447b33393";"Radium-226";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-226";"Emissions to water";"river";"kBq";"54628800-94d9-4af7-8f0c-a3add4f8c598";"Radium-226";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-226";"Emissions to water";"Unspecified";"kBq";"d65a94b4-0479-42cc-8274-2db66e1e6aeb";"Radium-226";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-228/kg";"Emissions to water";"Unspecified";"kg";"06412e46-20ba-4e40-aa79-f83c72335124";"Radium-228/kg";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Radium-228";"Emissions to air";"";"kBq";"d5ca33b3-f101-4371-b684-c720463ae2ab";"Radium-228";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-228";"Emissions to air";"high. pop.";"kBq";"deafd761-4499-40e3-8667-06c91f204f6f";"Radium-228";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-228";"Emissions to air";"low. pop.";"kBq";"793f8194-88c0-4315-b59e-58de48ba6ce4";"Radium-228";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-228";"Emissions to air";"Unspecified";"kBq";"d5ca33b3-f101-4371-b684-c720463ae2ab";"Radium-228";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
+"Radium-228";"Emissions to water";"";"kBq";"4ea9bb4f-e4ab-45d7-beb5-dc07fc1c685a";"Radium-228";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-228";"Emissions to water";"ocean";"kBq";"09257283-72d9-4d13-838b-ee7f28e6d146";"Radium-228";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-228";"Emissions to water";"river";"kBq";"0eb0c647-5f2b-48a7-9ce8-da2d5797fbc7";"Radium-228";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radium-228";"Emissions to water";"Unspecified";"kBq";"4ea9bb4f-e4ab-45d7-beb5-dc07fc1c685a";"Radium-228";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
+"Radon-220";"Emissions to air";"";"kBq";"b613b3b0-a98d-4b7a-a908-999ccfe1452d";"Radon-220";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radon-220";"Emissions to air";"high. pop.";"kBq";"98bd0642-19d0-4c76-930e-03136c21cc20";"Radon-220";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radon-220";"Emissions to air";"low. pop.";"kBq";"e70d3563-78c4-42cf-8cf3-5ac42c499589";"Radon-220";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radon-220";"Emissions to air";"Unspecified";"kBq";"b613b3b0-a98d-4b7a-a908-999ccfe1452d";"Radon-220";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
+"Radon-222";"Emissions to air";"";"kBq";"cb3265f8-49a0-4b09-9bd9-c374370c4cc4";"Radon-222";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radon-222";"Emissions to air";"high. pop.";"kBq";"6fd55524-c309-4eb8-bff6-9c606e3a82d7";"Radon-222";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radon-222";"Emissions to air";"low. pop.";"kBq";"1551f1cd-7cb7-4f68-a628-cb9301323c7b";"Radon-222";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Radon-222";"Emissions to air";"low. pop., long-term";"kBq";"4ac6979b-55f2-42ae-8d7e-37846e92506c";"Radon-222";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
@@ -3620,6 +3669,7 @@
 "Selenium compounds";"Emissions to air";"Unspecified";"kg";"1f5678f2-20a7-40f6-b485-eda6caf7a816";"Selenium compounds";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Selenium compounds";"Emissions to soil";"industrial";"kg";"e562034e-2b24-4840-a2a3-77ac7e85afd9";"Selenium compounds";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Selenium compounds";"Emissions to water";"Unspecified";"kg";"718b3357-8e45-4788-9e4e-edd40c56bf7e";"Selenium compounds";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Selenium";"Emissions to air";"";"kg";"454c61fd-c52b-4a04-9731-f141bb7b5264";"Selenium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Selenium";"Emissions to air";"high. pop.";"kg";"a79be2ee-ac83-4328-a136-a34ba1f99089";"Selenium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Selenium";"Emissions to air";"low. pop.";"kg";"e6551223-73b6-4289-b841-c5cdeb25abd9";"Selenium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Selenium";"Emissions to air";"low. pop., long-term";"kg";"93e71b71-05d4-4a44-a85a-592a6f21cf0c";"Selenium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -3628,6 +3678,7 @@
 "Selenium";"Emissions to soil";"";"kg";"45acd8c0-657f-46d3-8026-4b3c9fadaeb6";"Selenium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Selenium";"Emissions to soil";"agricultural";"kg";"c6ce1ad0-d8da-41d0-8db1-cabc3760b422";"Selenium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Selenium";"Emissions to soil";"industrial";"kg";"56a24912-2d66-4124-87d8-f760c2fe3973";"Selenium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Selenium";"Emissions to water";"";"kg";"6284e146-54b2-4067-a478-9b8ee24c6400";"Selenium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Selenium";"Emissions to water";"groundwater";"kg";"1be475e0-ccef-4145-98e0-0d47c570a71b";"Selenium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Selenium";"Emissions to water";"groundwater, long-term";"kg";"4d54a415-82d7-49ac-88e1-712bd0009363";"Selenium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Selenium";"Emissions to water";"ocean";"kg";"62cc5e18-da24-4fb7-9f7c-1601fedba341";"Selenium";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -3672,6 +3723,7 @@
 "Silver";"Emissions to soil";"";"kg";"7da45a0b-0dcf-413c-8de0-44d8ebca9e6e";"Silver";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Silver";"Emissions to soil";"agricultural";"kg";"fce0b9ae-53c8-4ab0-9e7a-7f5c2ed2c856";"Silver";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Silver";"Emissions to soil";"industrial";"kg";"16316600-f12a-410b-8726-3faee64de60a";"Silver";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Silver";"Emissions to water";"";"kg";"6aa8673f-f7e3-4270-93dc-e97b745fced7";"Silver, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Silver";"Emissions to water";"groundwater";"kg";"71cfe87c-ab80-421e-adba-afb7d5bd0861";"Silver, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Silver";"Emissions to water";"groundwater, long-term";"kg";"94426df9-63b1-4dc6-ad1b-3509e22f1154";"Silver, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Silver";"Emissions to water";"ocean";"kg";"21c257b2-57ce-4a6e-b4bd-40f0f75f310f";"Silver, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -3804,6 +3856,7 @@
 "Sulfosulfuron";"Emissions to air";"Unspecified";"kg";"596435e1-ce52-4404-a3ff-dfa422224c76";"Sulfosulfuron";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Sulfosulfuron";"Emissions to soil";"agricultural";"kg";"6a9afa4e-3b29-4695-b742-56c893060dd3";"Sulfosulfuron";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Sulfosulfuron";"Emissions to water";"Unspecified";"kg";"dfc4e42e-73c2-4938-8682-d2e4dc5418c6";"Sulfosulfuron";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Sulfur dioxide";"Emissions to air";"";"kg";"fd7aa71c-508c-480d-81a6-8052aad92646";"Sulfur dioxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Sulfur dioxide";"Emissions to air";"high. pop.";"kg";"8c52f40c-69b7-4538-8923-b371523c71f5";"Sulfur dioxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Sulfur dioxide";"Emissions to air";"low. pop.";"kg";"78c3efe4-421c-4d30-82e4-b97ac5124993";"Sulfur dioxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Sulfur dioxide";"Emissions to air";"stratosphere + troposphere";"kg";"16521d00-4b6f-464f-b5dd-8da4a27b15ca";"Sulfur dioxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -3814,6 +3867,7 @@
 "Sulfur hexafluoride";"Emissions to air";"low. pop.";"kg";"c7c769bb-89b9-4459-afed-e3acecd39339";"Sulfur hexafluoride";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Sulfur monoxide";"Emissions to air";"low. pop.";"kg";"e0994a6e-9a9f-4a17-9f02-d85937d01028";"Sulfur monoxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Sulfur monoxide";"Emissions to air";"Unspecified";"kg";"b1124d65-6c5a-4530-a5e5-0c9726eb524c";"Sulfur monoxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Sulfur oxides";"Emissions to air";"";"kg";"e3569b8d-34ca-4712-93b5-b0d81f955663";"Sulfur oxides";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Sulfur oxides";"Emissions to air";"Unspecified";"kg";"e3569b8d-34ca-4712-93b5-b0d81f955663";"Sulfur oxides";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Sulfur trioxide";"Emissions to air";"high. pop.";"kg";"b00950bc-99cb-4ee2-bbc0-5f878ea170c3";"Sulphur trioxide";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Sulfur";"Emissions to air";"Unspecified";"kg";"75f395bf-351b-4d95-9c9b-fdce145ae403";"Sulfur";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -3838,6 +3892,7 @@
 "Sulfuryl fluoride";"Emissions to air";"Unspecified";"kg";"d8843176-0f7f-4a76-8471-4b8cb5d522d5";"Sulfuryl fluoride";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Sulphur";"Emissions to water";"groundwater";"kg";"c2cc0ba3-a0c4-4bb4-9b85-3ff9dae2061f";"Sulfur";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Surfactants";"Emissions to water";"Unspecified";"kg";"38785c94-b6fb-481c-ae3a-8087ebad14a7";"Surfactants";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Suspended solids, unspecified";"Emissions to water";"";"kg";"693921ef-e02d-4072-add0-55aa4631b213";"Suspended solids, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Suspended solids, unspecified";"Emissions to water";"groundwater";"kg";"51c35cf0-3417-4d42-936f-9a6fd7a2638a";"Suspended solids, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Suspended solids, unspecified";"Emissions to water";"ocean";"kg";"dc08e010-0bf9-4a36-a1dd-779684c84b3b";"Suspended solids, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Suspended solids, unspecified";"Emissions to water";"river";"kg";"3844f446-ded5-4727-8421-17a00ef4eba7";"Suspended solids, unspecified";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -3960,6 +4015,7 @@
 "Thiram";"Emissions to soil";"industrial";"kg";"21198fcd-6578-40a2-a720-2ad036d34329";"Thiram";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Thiram";"Emissions to soil";"Unspecified";"kg";"8d42547e-f6bf-413f-90da-237075e14a43";"Thiram";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Thiram";"Emissions to water";"Unspecified";"kg";"a45c8b1d-f939-462d-a00a-f1ed9d3e4777";"Thiram";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Thorium-228";"Emissions to air";"";"kBq";"ecc877ac-3c34-4838-b1f8-6ae0ff2cd2fc";"Thorium-228";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Thorium-228";"Emissions to air";"high. pop.";"kBq";"6e769b2f-11ce-4ec1-ad99-a27c93361e72";"Thorium-228";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Thorium-228";"Emissions to air";"low. pop.";"kBq";"bae57811-0343-41be-97cf-2c74279dd638";"Thorium-228";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Thorium-228";"Emissions to air";"Unspecified";"kBq";"ecc877ac-3c34-4838-b1f8-6ae0ff2cd2fc";"Thorium-228";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
@@ -3968,6 +4024,7 @@
 "Thorium-228";"Emissions to water";"river";"kBq";"41a892b6-02cd-4824-b7d7-58ee3e384915";"Thorium-228";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Thorium-230";"Emissions to air";"low. pop.";"kBq";"4eb24f81-0468-4b92-bae3-8b12dfc90438";"Thorium-230";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Thorium-230";"Emissions to water";"river";"kBq";"16c98710-4cda-4fca-9aad-234d419710b6";"Thorium-230";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
+"Thorium-232";"Emissions to air";"";"kBq";"08ebf986-d40a-4538-8aa7-21da2f99edf7";"Thorium-232";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Thorium-232";"Emissions to air";"high. pop.";"kBq";"e17ab5b1-0e70-409c-b7fd-0a01e6a26de3";"Thorium-232";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Thorium-232";"Emissions to air";"low. pop.";"kBq";"4c54be62-05f1-4201-940d-f161537be704";"Thorium-232";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Thorium-232";"Emissions to air";"Unspecified";"kBq";"08ebf986-d40a-4538-8aa7-21da2f99edf7";"Thorium-232";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
@@ -4009,12 +4066,12 @@
 "Titanium";"Emissions to water";"groundwater, long-term";"kg";"2a46e7f4-c66c-43e5-8a8a-d119c4098aff";"Titanium, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Titanium";"Emissions to water";"ocean";"kg";"2beb46d1-2d1d-48ca-bf95-f0668fed29bf";"Titanium, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Titanium";"Emissions to water";"river";"kg";"ff36578b-f403-4656-b934-81d8d4e02dc8";"Titanium, ion";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
-"Toluene diisocyanate";"Emissions to air";"high. pop.";"kg";"2919ec52-d0b6-496f-a009-bd783e90d4ff";"toluene-2,4-diisocyante";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
-"Toluene diisocyanate";"Emissions to air";"low. pop.";"kg";"6df90bef-4b9d-4a18-9874-e58c2a0ef7b0";"toluene-2,4-diisocyante";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
-"Toluene diisocyanate";"Emissions to air";"Unspecified";"kg";"131942ca-d159-4d44-a7a4-f2dd39a8abba";"toluene-2,4-diisocyante";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
-"Toluene diisocyanate";"Emissions to soil";"industrial";"kg";"c5b0e7fb-c2a7-4a47-9930-5c7521263b70";"toluene-2,4-diisocyante";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
-"Toluene diisocyanate";"Emissions to soil";"Unspecified";"kg";"54f8549b-3109-4b9c-b0a3-a98abc7f3cc4";"toluene-2,4-diisocyante";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
-"Toluene diisocyanate";"Emissions to water";"Unspecified";"kg";"54daacf5-f7b2-4b06-aab2-a0988301222d";"toluene-2,4-diisocyante";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Toluene diisocyanate";"Emissions to air";"high. pop.";"kg";"23539d1c-23b7-49a4-94e8-dccee0aeb892";"2,4/2,6-toluenediisocyanate (mixture)";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Toluene diisocyanate";"Emissions to air";"low. pop.";"kg";"c769571b-e559-40ce-86a9-df9aaaa74146";"2,4/2,6-toluenediisocyanate (mixture)";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Toluene diisocyanate";"Emissions to air";"Unspecified";"kg";"3ffd879d-e72d-44ef-bd40-f1f3ad2f91a8";"2,4/2,6-toluenediisocyanate (mixture)";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Toluene diisocyanate";"Emissions to soil";"industrial";"kg";"e1f9cc03-63e9-4c08-96e5-eec85e6175b1";"2,4/2,6-toluenediisocyanate (mixture)";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Toluene diisocyanate";"Emissions to soil";"Unspecified";"kg";"62f76f7b-bfdf-43f9-82b2-0ea9d3c80f8c";"2,4/2,6-toluenediisocyanate (mixture)";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Toluene diisocyanate";"Emissions to water";"Unspecified";"kg";"142bb6af-3d22-4991-9bb7-8323cadaa052";"2,4/2,6-toluenediisocyanate (mixture)";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Toluene, 2,4-diamine";"Emissions to air";"high. pop.";"kg";"359fd321-d59b-49f3-a3d9-2dd7c6b329bf";"2,4-Diaminotoluene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Toluene, 2,4-diamine";"Emissions to air";"low. pop.";"kg";"4130cc50-1683-4977-ad83-cf72bec36650";"2,4-Diaminotoluene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Toluene, 2,4-diamine";"Emissions to air";"Unspecified";"kg";"249c20e6-8db6-4c4f-8a85-d91bf848e8fc";"2,4-Diaminotoluene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -4037,11 +4094,13 @@
 "Toluene, dinitro-";"Emissions to air";"low. pop.";"kg";"1faf87ea-314d-4cf9-ab76-15203d8adb58";"Dinitrotoluene, technical grade (2,4 (77%)- and 2,6 (19%)-)";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Toluene, dinitro-";"Emissions to air";"Unspecified";"kg";"e3b6ef10-2b6d-4f29-97dd-c0ceac1d27ba";"Dinitrotoluene, technical grade (2,4 (77%)- and 2,6 (19%)-)";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Toluene, dinitro-";"Emissions to water";"Unspecified";"kg";"8fc7151f-3730-482a-ba60-56e354e4de10";"Dinitrotoluene, technical grade (2,4 (77%)- and 2,6 (19%)-)";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Toluene";"Emissions to air";"";"kg";"3b1ecf8e-1d2c-4330-81da-a79f9068976d";"Toluene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Toluene";"Emissions to air";"high. pop.";"kg";"39946c56-cdf6-4a22-9ac9-1cd333b65533";"Toluene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Toluene";"Emissions to air";"low. pop.";"kg";"77f17646-cede-4a49-99dd-55950098b077";"Toluene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Toluene";"Emissions to air";"Unspecified";"kg";"3b1ecf8e-1d2c-4330-81da-a79f9068976d";"Toluene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Toluene";"Emissions to soil";"industrial";"kg";"eb6aec67-7ee3-470f-afdb-6d5010d9b72c";"Toluene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Toluene";"Emissions to soil";"Unspecified";"kg";"5a37d523-d27e-441d-9c5f-70b0cc88ece1";"Toluene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Toluene";"Emissions to water";"";"kg";"826c7733-9b0a-4ec5-9f35-32294f9138e3";"Toluene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Toluene";"Emissions to water";"ocean";"kg";"f2d5f01a-3e16-4a6c-a3dc-f6ee9a728957";"Toluene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Toluene";"Emissions to water";"river";"kg";"bb33742a-c5d5-4607-805f-13e4d3a155fd";"Toluene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Toluene";"Emissions to water";"Unspecified";"kg";"826c7733-9b0a-4ec5-9f35-32294f9138e3";"Toluene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -4249,6 +4308,7 @@
 "Uranium-234";"Emissions to water";"river";"kBq";"7f277a1f-55f8-4cb6-ad4c-47b6c3f23dec";"Uranium-234";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Uranium-235";"Emissions to air";"low. pop.";"kBq";"6b44284d-6941-4ae6-815e-ce87f5b603bb";"Uranium-235";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Uranium-235";"Emissions to water";"river";"kBq";"6ed53f9e-c844-402f-9c79-911f2d9d7d5e";"Uranium-235";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
+"Uranium-238";"Emissions to air";"";"kBq";"c36056d2-5101-4198-b13b-fdc0a8cf27ee";"Uranium-238";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Uranium-238";"Emissions to air";"high. pop.";"kBq";"543421e8-f0b3-45a2-b0ed-03489e878138";"Uranium-238";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Uranium-238";"Emissions to air";"low. pop.";"kBq";"e6aafd63-a6d5-41f7-9b82-45f791c7037c";"Uranium-238";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Uranium-238";"Emissions to air";"Unspecified";"kBq";"c36056d2-5101-4198-b13b-fdc0a8cf27ee";"Uranium-238";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
@@ -4694,12 +4754,14 @@
 "Xenon-137";"Emissions to air";"low. pop.";"kBq";"001790f3-fd86-4a0d-a2a1-06c7099d90c8";"Xenon-137";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Xenon-138";"Emissions to air";"low. pop.";"kBq";"7c44db6f-bf0e-4a63-bd94-d376ec941786";"Xenon-138";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Xenon";"Resources";"in air";"kg";"c52e8414-f232-4c6a-bff2-5726189789ee";"Xenon, in air";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Xylene";"Emissions to air";"";"kg";"5c234628-ab1e-4284-ae2b-f1c2f6883f71";"Xylene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Xylene";"Emissions to air";"high. pop.";"kg";"ed8da356-ed40-4a35-8de4-57aee1d3c279";"Xylene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Xylene";"Emissions to air";"low. pop.";"kg";"a1d277aa-7aea-4b5e-8aa9-2789ba8ff333";"Xylene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Xylene";"Emissions to air";"Unspecified";"kg";"5c234628-ab1e-4284-ae2b-f1c2f6883f71";"Xylene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Xylene";"Emissions to soil";"agricultural";"kg";"b5b74864-cd50-4bad-9781-1a1a7458ae86";"Xylene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Xylene";"Emissions to soil";"industrial";"kg";"2c9d4f1d-e4c2-4111-b438-b8fde386b88d";"Xylene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Xylene";"Emissions to soil";"Unspecified";"kg";"2ba54ae3-bb4c-498b-9704-c6f86e02e08b";"Xylene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
+"Xylene";"Emissions to water";"";"kg";"045f7de9-60d5-4916-a504-5a1002a6e97e";"Xylene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Xylene";"Emissions to water";"ocean";"kg";"6d9e9a11-4d99-4489-a0ab-4cd1b6b8eaef";"Xylene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Xylene";"Emissions to water";"river";"kg";"29190509-6cc8-47e1-bc99-5ff994e39b74";"Xylene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Xylene";"Emissions to water";"Unspecified";"kg";"045f7de9-60d5-4916-a504-5a1002a6e97e";"Xylene";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
@@ -4717,6 +4779,7 @@
 "Zinc, fume or dust";"Emissions to water";"Unspecified";"kg";"ef9debc2-8470-441f-bb7e-618ca7c5d00e";"Zinc, fume or dust";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Zinc-65";"Emissions to air";"low. pop.";"kBq";"cf5e52c1-b1fc-46c8-b6f9-8e085657632e";"Zinc-65";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
 "Zinc-65";"Emissions to water";"river";"kBq";"7d36e0d7-00aa-4050-80c1-4750f985b227";"Zinc-65";"93a60a56-a3c8-17da-a746-0800200c9a66";"Radioactivity";"e9773595-284e-46dd-9671-5fc9ff406833";"kBq";1
+"Zinc";"Emissions to air";"";"kg";"5ce378a0-b48d-471c-977d-79681521efde";"Zinc";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Zinc";"Emissions to air";"high. pop.";"kg";"748f22a9-eba4-4726-bef5-92c7442ce189";"Zinc";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Zinc";"Emissions to air";"low. pop.";"kg";"ada3ecfe-8244-4389-bcce-e83ca4f66e09";"Zinc";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1
 "Zinc";"Emissions to air";"low. pop., long-term";"kg";"8f871bab-96dc-49d9-bf08-12cdd0715901";"Zinc";"93a60a56-a3c8-11da-a746-0800200b9a66";"Mass";"20aadc24-a391-41cf-b340-3e4529f44bde";"kg";1

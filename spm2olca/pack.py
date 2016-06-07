@@ -84,7 +84,8 @@ class Pack(object):
             val = factor.value / flow.factor
             obj = {'@type': 'ImpactFactor',
                    'value': val,
-                   'flow': {'@type': 'Flow', '@id': flow.olca_flow_id},
+                   'flow': {'@type': 'Flow', '@id': flow.olca_flow_id,
+                            'name': flow.olca_flow_name},
                    'unit': {'@type': 'Unit', '@id': flow.olca_unit_id},
                    'flowProperty': {'@type': 'FlowProperty',
                                     '@id': flow.olca_property_id}}
