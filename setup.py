@@ -2,14 +2,14 @@ from setuptools import setup
 
 setup(
     name="spm2olca",
-    version="0.0.1",
+    version="1.0.0",
     author="Michael Srocka",
     author_email="michael.srocka@gmail.com",
     description="SimaPro Method File to olca-schema converter",
     license="MIT",
     keywords="converter lca",
     url="https://github.com/GreenDelta/spm2olca",
-    download_url='https://github.com/GreenDelta/spm2olca/tarball/v0.0.1',
+    download_url='https://github.com/GreenDelta/spm2olca/tarball/v1.0.0',
     packages=['spm2olca'],
     install_requires=[],
     entry_points={

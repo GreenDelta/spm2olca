@@ -8,7 +8,7 @@ The installation of the package requires that Python >= 3.4 is
 [installed](https://docs.python.org/3/using/) on your system and that the Python
 `Scripts` folder is in your system path. To install `spm2olca`, 
 [download](https://github.com/GreenDelta/spm2olca/archive/master.zip) the
-latest latest version and extract it to a folder (or get it via `git clone ...`).
+latest version and extract it to a folder (or get it via `git clone ...`).
 Open a command line, switch to the `spm2olca` folder, and create an egg-link:
 
 ```bash
@@ -23,7 +23,7 @@ test this by executing the following command:
 spm2olca -h
 ```
 
-To uninstall it, just the following command:
+To uninstall it, just execute the following command:
 
 ```bash
 pip uninstall spm2olca
@@ -35,7 +35,7 @@ Just type the `spm2olca` command followed by the SimaPro CSV file with LCIA
 methods you want to convert:
 
 ```bash
- spm2olca <SimaPro CSV file with LCIA methods>
+ spm2olca "My Method.csv"
 ```
 
 This will generate the `olca-schema` package which will have the same file name
@@ -53,8 +53,8 @@ Additional options:
 * `-skip_unmapped`: LCIA factors with unmapped flows are not included (only
   applicable when a flow mapping is provided)
 * `-log`: define the log level (e.g. 'all' will log everything)
-* `-units`: A CSV file with unit mappings that should be used
-* `-flows`: A CSV file with flow mappings that should be used
+* `-units`: a CSV file with unit mappings that should be used
+* `-flows`: a CSV file with flow mappings that should be used
 
 A command with all options could look like this:
 
@@ -103,9 +103,8 @@ with the following columns:
 ```
 
 This is the same file as in the openLCA reference data. The conversion factor
-:math:`f` converts a flow amount from SimaPro :math:`a_s` in the SimaPro 
-reference unit to the respective amount of the flow in the openLCA reference
-unit :math:`a_o`:
+`f` converts a flow amount from SimaPro `a_s` in the SimaPro reference unit to
+the respective amount of the flow in the openLCA reference unit `a_o`:
 
 ```
 a_o = f * a_s
@@ -117,13 +116,9 @@ e.g.
 a_o = [m3] = 0.001 * [kg] with a_s = [kg]
 ```
     
-Thus the value of an SimaPro LCIA factor is *divided* by the conversion factor
+Thus, the value of an SimaPro LCIA factor is *divided* by the conversion factor
 for such a mapped flow when converted to openLCA, e.g.:
 
 ```
 lcia_o = 2000/[m3] = 2/(0.001*[kg]) with a_s = [kg] 
 ```
-
-TODOS
------
-* read delimiter from file header (currently only semicolons are supported)
