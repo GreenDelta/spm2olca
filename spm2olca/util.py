@@ -6,7 +6,7 @@ def as_path(*args: list) -> str:
     for arg in args:
         if arg is None:
             continue
-        strings.append(str(arg).lower())
+        strings.append(str(arg).lower().strip())
     return "/".join(strings)
 
 
