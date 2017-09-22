@@ -1,4 +1,3 @@
-UNIT_NAME;UNIT_ID;PROPERTY_NAME;PROPERTY_ID
 (cmol*m2)/kg;691ae73c-3fc1-4157-85d0-2659bdc2380a;Physicochemical Filtration (Transf.);ac95ed26-5038-4862-8b82-94f1412875cd
 (cmol*m2*a)/kg;2e16ca4a-9f65-472f-b4cb-274050aaf328;Physicochemical Filtration (Occ.);8a9107c2-62a2-4997-95b0-6944c80b774e
 (mm*m2)/a;95e8feec-abc7-4eb0-bf39-2a6d411cba8d;Groundwater Replenishment (Transf.);58ea2de8-1f31-4248-9b03-18ec5d8db13b

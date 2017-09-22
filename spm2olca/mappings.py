@@ -36,7 +36,6 @@ class UnitMap(object):
         self.mappings = {}
         with open(file_path, 'r', encoding='utf-8', newline='\n') as f:
             reader = csv.reader(f, delimiter=';')
-            next(reader)  # skip first line
             for line in reader:
                 entry = UnitEntry(line)
                 self.mappings[entry.unit_name] = entry
@@ -79,8 +78,12 @@ class FlowEntry(object):
 
 class FlowMap(object):
 
-    def __init__(self, file_path):
+    def __init__(self, file_path=None):
         self.mappings = {}
+        if file_path is not None:
+            self.__read_mappings__(file_path)
+
+    def __read_mappings__(self, file_path: str):
         with open(file_path, 'r', encoding='utf-8', newline='\n') as f:
             reader = csv.reader(f, delimiter=';')
 
@@ -99,12 +102,6 @@ class FlowMap(object):
                                                entry.sp_name,
                                                entry.sp_unit))
                 self.mappings[uid] = entry
-
-    @staticmethod
-    def create():
-        """ Creates the flow map with default data. """
-        path = data_dir + '/flows.csv'
-        return FlowMap(path)
 
     def get(self, flow_uid: str) -> FlowEntry:
         if flow_uid in self.mappings:

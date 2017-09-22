@@ -12,8 +12,9 @@ class Pack(object):
                  flow_map=None):
         self.methods = methods
         self.unit_map = maps.UnitMap.create() if unit_map is None else unit_map
-        self.flow_map = maps.FlowMap.create() if flow_map is None else flow_map
-        self.skip_unmapped_flows = skip_unmapped_flows
+        self.flow_map = maps.FlowMap() if flow_map is None else flow_map
+        self.skip_unmapped_flows = ((flow_map is not None) and
+                                    skip_unmapped_flows)
         self._gen_categories = {}
         self._gen_flows = {}
 
@@ -111,8 +112,7 @@ class Pack(object):
 
         # create a new flow
         if factor.flow_uid not in self._gen_flows:
-            log.warning('Unmapped flow: %s -> create new: %s' %
-                        (path, factor.flow_uid))
+            log.info('Create flow: %s -> %s' % (path, factor.flow_uid))
             self._create_flow(factor, unit_entry, pack)
             self._gen_flows[factor.flow_uid] = True
 

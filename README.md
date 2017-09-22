@@ -30,8 +30,7 @@ pip uninstall spm2olca
 ```
 
 
-Usage
------
+## Usage
 Just type the `spm2olca` command followed by the SimaPro CSV file with LCIA
 methods you want to convert:
 
@@ -51,7 +50,8 @@ spm2olca -h
 Additional options:
 
 * `-out`: define the name of the output file
-* `-skip_unmapped`: LCIA factors with unmapped flows are not included
+* `-skip_unmapped`: LCIA factors with unmapped flows are not included (only
+  applicable when a flow mapping is provided)
 * `-log`: define the log level (e.g. 'all' will log everything)
 * `-units`: A CSV file with unit mappings that should be used
 * `-flows`: A CSV file with flow mappings that should be used
@@ -62,13 +62,29 @@ A command with all options could look like this:
 spm2olca -out=out.zip -log=all -skip_unmapped -units=units.csv -flows=flows.csv Method.csv
 ```
 
-Unit mappings
--------------
-Units are mapped by name to openLCA units and flow properties ...
+## Mapping files
+You can specify mapping files for flows and units that should be used in the
+conversion. If no unit mapping file is given, `spm2olca` will take a 
+[default mapping](./spm2olca/data/units.csv) file in the conversion. For flows,
+new flows will be created if no mapping file is provided or if they are not
+contained in the mapping file. The general format of these mapping files is:
 
+* CSV files with semicolons as separator
+* UTF-8 encoded without a byte order mark
+* no column headers
 
-Flow mappings
--------------
+### Unit mappings
+Units are mapped by name to openLCA units and flow properties. The mapping file
+must have the following columns:
+
+```
+0.  SimaPro name of the unit
+1.  openLCA reference ID of the unit
+2.  openLCA name of the flow property
+3.  openLCA reference ID of the flow property
+```
+
+### Flow mappings
 The SimaPro flows are mapped to openLCA reference flows with a CSV mapping file
 with the following columns:
 
@@ -111,4 +127,3 @@ lcia_o = 2000/[m3] = 2/(0.001*[kg]) with a_s = [kg]
 TODOS
 -----
 * read delimiter from file header (currently only semicolons are supported)
-* add template package with reference data
