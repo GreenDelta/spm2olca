@@ -1,18 +1,19 @@
-spm2olca
-========
+# spm2olca
 spm2olca is a simple command line tool that converts a SimaPro LCIA method files
-to a `olca-schema <https://github.com/GreenDelta/olca-schema>`_  (JSON-LD) package.
+to a [olca-schema](https://github.com/GreenDelta/olca-schema>) (JSON-LD) package.
 
 
-Installation
-------------
+## Installation
 The installation of the package requires that Python >= 3.4 is 
 [installed](https://docs.python.org/3/using/) on your system and that the Python
-`Scripts` folder is in your system path. If this is the case you just need to
-install it from the command shell via:
+`Scripts` folder is in your system path. To install `spm2olca`, 
+[download](https://github.com/GreenDelta/spm2olca/archive/master.zip) the
+latest latest version and extract it to a folder (or get it via `git clone ...`).
+Open a command line, switch to the `spm2olca` folder, and create an egg-link:
 
 ```bash
-pip install spm2olca
+cd spm2olca
+pip install -e .
 ```
 
 After this you should be able to run the tool anywhere on your system. You can 
@@ -21,18 +22,12 @@ test this by executing the following command:
 ```bash
 spm2olca -h
 ```
-    
-If you want to modify or improve the tool you can download the source and create
-an egg-link with pip:
- 
-```bash
-git clone https://github.com/GreenDelta/spm2olca
-cd spm2olca
-pip install -e .
-```
 
-This will install the tool but with a link to this source code folder where you
-can modify the respective functions.
+To uninstall it, just the following command:
+
+```bash
+pip uninstall spm2olca
+```
 
 
 Usage
@@ -58,7 +53,14 @@ Additional options:
 * `-out`: define the name of the output file
 * `-skip_unmapped`: LCIA factors with unmapped flows are not included
 * `-log`: define the log level (e.g. 'all' will log everything)
+* `-units`: A CSV file with unit mappings that should be used
+* `-flows`: A CSV file with flow mappings that should be used
 
+A command with all options could look like this:
+
+```bash
+spm2olca -out=out.zip -log=all -skip_unmapped -units=units.csv -flows=flows.csv Method.csv
+```
 
 Unit mappings
 -------------

@@ -22,6 +22,7 @@ def compartment(label: str) -> str:
 
 
 class UnitEntry(object):
+
     def __init__(self, csv_row):
         self.unit_name = csv_row[0]
         self.unit_id = csv_row[1]
@@ -30,6 +31,7 @@ class UnitEntry(object):
 
 
 class UnitMap(object):
+
     def __init__(self, file_path):
         self.mappings = {}
         with open(file_path, 'r', encoding='utf-8', newline='\n') as f:
@@ -52,10 +54,11 @@ class UnitMap(object):
 
 
 class FlowEntry(object):
+
     def __init__(self, csv_row):
         self.sp_name = csv_row[0]
-        self.sp_category = csv_row[1]
-        self.sp_sub_category = 'unspecified' if csv_row[2] == '' else csv_row[2]
+        self.sp_category = compartment(csv_row[1])
+        self.sp_sub_category = compartment(csv_row[2])
         self.sp_unit = csv_row[3]
         self.olca_flow_id = csv_row[4]
         self.olca_flow_name = csv_row[5]
@@ -75,6 +78,7 @@ class FlowEntry(object):
 
 
 class FlowMap(object):
+
     def __init__(self, file_path):
         self.mappings = {}
         with open(file_path, 'r', encoding='utf-8', newline='\n') as f:
