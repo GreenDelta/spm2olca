@@ -7,10 +7,12 @@ import zipfile as zipf
 
 
 class Pack(object):
-    def __init__(self, methods, skip_unmapped_flows=False):
+
+    def __init__(self, methods, skip_unmapped_flows=False, unit_map=None,
+                 flow_map=None):
         self.methods = methods
-        self.unit_map = maps.UnitMap.create()
-        self.flow_map = maps.FlowMap.create()
+        self.unit_map = maps.UnitMap.create() if unit_map is None else unit_map
+        self.flow_map = maps.FlowMap.create() if flow_map is None else flow_map
         self.skip_unmapped_flows = skip_unmapped_flows
         self._gen_categories = {}
         self._gen_flows = {}
@@ -123,7 +125,7 @@ class Pack(object):
                     (path, factor.flow_uid))
         unit_entry = self.unit_map.get(factor.unit)
         if unit_entry is None:
-            return
+            return None
         category_id = self._flow_category(factor, pack)
         obj = {'@type': 'Flow',
                '@id': factor.flow_uid,
@@ -140,6 +142,7 @@ class Pack(object):
                }]}
         self._gen_flows[factor.flow_uid] = True
         dump(obj, 'flows', pack)
+        return unit_entry
 
     def _flow_category(self, factor: model.ImpactFactor, pack) -> str:
         sub_uid = factor.flow_sub_category_uid
