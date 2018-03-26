@@ -138,57 +138,57 @@ MethodFile  = FileHeader
 
 (* The file header contains meta-data about the file format, column separator
    etc. *)
-FileHeader  = '{' ... '}';
+FileHeader  = "{" ... "}";
 
-(* Each LCIA method starts with a line 'Method' and ends with a line 'End'. It
+(* Each LCIA method starts with a line "Method" and ends with a line "End". It
    contains some method meta data, the LCIA categories*)
-Method      = 'Method'
+Method      = "Method"
               MethodMetaData
               { ImpactCategory }
               { NWSet }
               { DamageCategory } ;
 
-(* An LCIA category starts with the line 'Impact category' directly followed by
+(* An LCIA category starts with the line "Impact category" directly followed by
    a line with the meta-information like name and reference unit. *)
-ImpactCategory   = 'Impact category' 
-                   ImpactCategory ';' ReferenceUnit ;
+ImpactCategory   = "Impact category" 
+                   ImpactCategory ";" ReferenceUnit ;
                    ImpactFactors ;
 
 (* The LCIA factors are written into a section starting with the header
-   'Substances' followed with an LCIA factors each in a separate row. *)
-ImpactFactors = 'Substances'
-                 { Compartment ';' SubCompartment ';' FlowName ';' CasNumber ';' ImpactFactor ';' Unit} ;
+   "Substances" followed with an LCIA factors each in a separate row. *)
+ImpactFactors = "Substances"
+                 { Compartment ";" SubCompartment ";" FlowName ";" CasNumber ";" ImpactFactor ";" Unit} ;
 
 
 (* The weighting section in a normalization weighting set is optional *)
-NWSet = 'Normalization-Weighting set'
+NWSet = "Normalization-Weighting set"
         NWSetName
         EmptyLine
-        'Normalization'
-        { ImpactCategory ';' NormalizationFactor }
+        "Normalization"
+        { ImpactCategory ";" NormalizationFactor }
         [
-          'Weighting'
-          ImpactCategory ';' WeightingFactor
-        ]
+          "Weighting"
+          ImpactCategory ";" WeightingFactor
+        ];
 
-(* A damage category starts with the header 'Damage category' and contains a
+(* A damage category starts with the header "Damage category" and contains a
    damage factor for each impact category. *)
-DamageCategory = 'Damage category'
-                 DamageCategory ';' ReferenceUnit
+DamageCategory = "Damage category"
+                 DamageCategory ";" ReferenceUnit
                  EmptyLine
-                 'Impact categories'
-                 { ImpactCategory ';' DamageFactor }
+                 "Impact categories"
+                 { ImpactCategory ";" DamageFactor }
 
-QuantityList = 'Quantities'
-               { QuantityName ';' ? } 
+QuantityList = "Quantities"
+               { QuantityName ";" } 
 
-UnitList = 'Units'
-           { UnitSymbol ';' QuantityName ';' UnitFactor ';' ReferenceUnitName} ;
+UnitList = "Units"
+           { UnitSymbol ";" QuantityName ";" UnitFactor ";" ReferenceUnitName} ;
 
-(* A flow list starts with a line with the flow type (e.g. 'Waterborne emissions'
+(* A flow list starts with a line with the flow type (e.g. "Waterborne emissions"
    followed by the meta data of the flows of this type with a separate line for
    each flow. *)
 FlowList = <FlowType>
            { FlowMetaData }
-           'End' ;
+           "End" ;
 ```
