@@ -3,7 +3,8 @@ from .mappings import compartment
 
 
 class ImpactCategory(object):
-    def __init__(self, line: str):
+    def __init__(self, method: str, line: str):
+        self.method = method
         parts = [p.strip() for p in line.split(';')]
         self.name = parts[0]
         self.ref_unit = parts[1]
@@ -11,7 +12,7 @@ class ImpactCategory(object):
 
     @property
     def uid(self):
-        return make_uuid('ImpactCategory', self.name)
+        return make_uuid('ImpactCategory', self.method, self.name)
 
 
 class ImpactFactor(object):
@@ -25,7 +26,8 @@ class ImpactFactor(object):
 
     @property
     def flow_uid(self):
-        return flow_uuid(self.category, self.sub_category, self.name, self.unit)
+        return flow_uuid(self.category, self.sub_category,
+                         self.name, self.unit)
 
     @property
     def flow_category_uid(self):
@@ -70,14 +72,14 @@ class DamageCategory(object):
 
 
 class NwSet(object):
-    def __init__(self, name: str):
+    def __init__(self, method: str, name: str):
         self.name = name
         self.normalisations = []
         self.weightings = []
 
     @property
     def uid(self):
-        return make_uuid('NwSet', self.name)
+        return make_uuid('NwSet', self.method, self.name)
 
     def get_weighting_factor(self, damage_category: str) -> float:
         for f in self.weightings:

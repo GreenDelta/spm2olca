@@ -33,8 +33,9 @@ class Parser(object):
                 self._category = None
             if self._nw_set is not None and self._section == 'Weighting':
                 self._nw_set = None
-            if self._damage is not None and self._section == 'Impact categories':
-                    self._damage = None
+            if (self._damage is not None and
+                    self._section == 'Impact categories'):
+                self._damage = None
             self._section = None
             return
 
@@ -67,7 +68,7 @@ class Parser(object):
             return
 
         if self._section == 'Impact category':
-            self._category = m.ImpactCategory(line)
+            self._category = m.ImpactCategory(self._method.name, line)
             self._method.impact_categories.append(self._category)
             return
 
@@ -76,7 +77,7 @@ class Parser(object):
             self._category.factors.append(f)
 
         if self._section == 'Normalization-Weighting set':
-            self._nw_set = m.NwSet(line)
+            self._nw_set = m.NwSet(self._method.name, line)
             self._method.nw_sets.append(self._nw_set)
 
         if self._section == 'Normalization' and self._nw_set is not None:

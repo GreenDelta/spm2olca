@@ -151,7 +151,8 @@ class Pack(object):
         if parent_uid not in self._gen_categories:
             obj = {'@type': 'Category', '@id': parent_uid,
                    'name': factor.category, 'modelType': 'FLOW',
-                   'category': {'@type': 'Category', '@id': 'elementary-flows'}}
+                   'category': {'@type': 'Category',
+                                '@id': 'elementary-flows'}}
             dump(obj, 'categories', pack)
             self._gen_categories[parent_uid] = True
         obj = {'@type': 'Category',

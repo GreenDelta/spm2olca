@@ -122,3 +122,73 @@ for such a mapped flow when converted to openLCA, e.g.:
 ```
 lcia_o = 2000/[m3] = 2/(0.001*[kg]) with a_s = [kg] 
 ```
+
+## The structure of a SimaPro LCIA method file
+In the following, the format of a SimaPro LCIA method file is shown in an
+[EBNF](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form) like
+notation:
+
+```ebnf
+(* A LCIA method file contains a file header, LCIA methods, and flow lists *)
+MethodFile  = FileHeader
+              { Method }
+
+              { UnitList }
+              { FlowList };
+
+(* The file header contains meta-data about the file format, column separator
+   etc. *)
+FileHeader  = '{' ... '}';
+
+(* Each LCIA method starts with a line 'Method' and ends with a line 'End'. It
+   contains some method meta data, the LCIA categories*)
+Method      = 'Method'
+              MethodMetaData
+              { ImpactCategory }
+              { NWSet }
+              { DamageCategory } ;
+
+(* An LCIA category starts with the line 'Impact category' directly followed by
+   a line with the meta-information like name and reference unit. *)
+ImpactCategory   = 'Impact category' 
+                   ImpactCategory ';' ReferenceUnit ;
+                   ImpactFactors ;
+
+(* The LCIA factors are written into a section starting with the header
+   'Substances' followed with an LCIA factors each in a separate row. *)
+ImpactFactors = 'Substances'
+                 { Compartment ';' SubCompartment ';' FlowName ';' CasNumber ';' ImpactFactor ';' Unit} ;
+
+
+(* The weighting section in a normalization weighting set is optional *)
+NWSet = 'Normalization-Weighting set'
+        NWSetName
+        EmptyLine
+        'Normalization'
+        { ImpactCategory ';' NormalizationFactor }
+        [
+          'Weighting'
+          ImpactCategory ';' WeightingFactor
+        ]
+
+(* A damage category starts with the header 'Damage category' and contains a
+   damage factor for each impact category. *)
+DamageCategory = 'Damage category'
+                 DamageCategory ';' ReferenceUnit
+                 EmptyLine
+                 'Impact categories'
+                 { ImpactCategory ';' DamageFactor }
+
+QuantityList = 'Quantities'
+               { QuantityName ';' ? } 
+
+UnitList = 'Units'
+           { UnitSymbol ';' QuantityName ';' UnitFactor ';' ReferenceUnitName} ;
+
+(* A flow list starts with a line with the flow type (e.g. 'Waterborne emissions'
+   followed by the meta data of the flows of this type with a separate line for
+   each flow. *)
+FlowList = <FlowType>
+           { FlowMetaData }
+           'End' ;
+```
