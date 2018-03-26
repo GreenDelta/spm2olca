@@ -1,4 +1,5 @@
 import spm2olca.model as m
+import logging as log
 
 
 class Parser(object):
@@ -13,6 +14,7 @@ class Parser(object):
 
     def parse(self, file_path):
         with open(file_path, 'r', encoding='windows-1252') as f:
+            log.debug('parse file %s', file_path)
             for raw_line in f:
                 line = raw_line.strip()
                 self._next_line(line)
@@ -20,6 +22,7 @@ class Parser(object):
     def _next_line(self, line):
 
         if line == 'Method':
+            log.debug('found next method')
             # start of a new method
             self._method = m.Method()
             return
@@ -51,11 +54,13 @@ class Parser(object):
     def _end(self):
         if self._method is not None:
             self.methods.append(self._method)
+            log.debug('finished method %s', self._method.name)
         self._method = None
         self._section = None
 
     def _data_row(self, line):
         if self._section == 'Name':
+            log.debug('Method name = %s', line)
             self._method.name = line
             return
 

@@ -48,22 +48,24 @@ class Pack(object):
                'weightedScoreUnit': method.weighting_unit,
                'factors': []}
         for impact in method.impact_categories:
-            dam_f = method.get_damage_factor(impact)
-            if dam_f is None:
-                continue
-            damage_category, damage_factor = dam_f
-            weighting_factor = nw_set.get_weighting_factor(damage_category)
-            if weighting_factor is not None:
-                weighting_factor *= damage_factor
-            normalisation_factor = nw_set.get_normalisation_factor(
-                damage_category)
-            if normalisation_factor is not None:
-                normalisation_factor = damage_factor / normalisation_factor
+            n_factor = None
+            w_factor = None
+            dam_category, dam_factor = method.get_damage_factor(impact)
+            if dam_category is not None:
+                w_factor = nw_set.get_weighting_factor(dam_category)
+                if w_factor is not None:
+                    w_factor *= dam_factor
+                n_factor = nw_set.get_normalisation_factor(dam_category)
+                if n_factor is not None:
+                    n_factor = dam_factor / n_factor
+            else:
+                w_factor = nw_set.get_weighting_factor(impact.name)
+                n_factor = nw_set.get_normalisation_factor(impact.name)
             f = {'@type': 'NwFactor',
                  'impactCategory': {'@type': 'ImpactCategory',
                                     '@id': impact.uid},
-                 'normalisationFactor': normalisation_factor,
-                 'weightingFactor': weighting_factor}
+                 'normalisationFactor': n_factor,
+                 'weightingFactor': w_factor}
             obj['factors'].append(f)
         dump(obj, 'nw_sets', pack)
 

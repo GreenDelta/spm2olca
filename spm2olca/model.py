@@ -60,7 +60,7 @@ class Method(object):
             for factor in category.factors:
                 if factor.impact_category == impact_category.name:
                     return category.name, factor.factor
-        return None
+        return None, None
 
 
 class DamageCategory(object):
@@ -73,6 +73,7 @@ class DamageCategory(object):
 
 class NwSet(object):
     def __init__(self, method: str, name: str):
+        self.method = method
         self.name = name
         self.normalisations = []
         self.weightings = []
@@ -81,15 +82,19 @@ class NwSet(object):
     def uid(self):
         return make_uuid('NwSet', self.method, self.name)
 
-    def get_weighting_factor(self, damage_category: str) -> float:
+    def get_weighting_factor(self, impact_or_damage: str) -> float:
+        """ Get the weighting factor for the given impact or damage category
+        """
         for f in self.weightings:
-            if f.impact_category == damage_category:
+            if f.impact_category == impact_or_damage:
                 return f.factor
         return None
 
-    def get_normalisation_factor(self, damage_category: str) -> float:
+    def get_normalisation_factor(self, impact_or_damage: str) -> float:
+        """ Get the normalisation factor for the given impact or damage category
+        """
         for f in self.normalisations:
-            if f.impact_category == damage_category:
+            if f.impact_category == impact_or_damage:
                 return f.factor
         return None
 
