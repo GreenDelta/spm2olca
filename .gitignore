@@ -3,3 +3,6 @@
 spm2olca.egg-info/
 */__pycache__/
 *.pyc
+
+build/
+dist/
