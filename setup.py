@@ -1,8 +1,13 @@
 from setuptools import setup
 
+# Get the long description from the README file
+with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
+
 setup(
     name="spm2olca",
-    version="1.0.0",
+    version="1.0.1",
     author="Michael Srocka",
     author_email="michael.srocka@gmail.com",
     description="SimaPro Method File to olca-schema converter",
@@ -18,7 +23,8 @@ setup(
         ]
     },
     package_data={'spm2olca': ["data/*.*"]},
-    long_description=open('README.md').read(),
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Environment :: Console",

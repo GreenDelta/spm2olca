@@ -4,16 +4,12 @@ to a [olca-schema](https://github.com/GreenDelta/olca-schema>) (JSON-LD) package
 
 
 ## Installation
-The installation of the package requires that Python >= 3.4 is 
-[installed](https://docs.python.org/3/using/) on your system and that the Python
-`Scripts` folder is in your system path. To install `spm2olca`, 
-[download](https://github.com/GreenDelta/spm2olca/archive/master.zip) the
-latest version and extract it to a folder (or get it via `git clone ...`).
-Open a command line, switch to the `spm2olca` folder, and create an egg-link:
+The installation of the package requires that Python >= 3.5 is 
+[installed](https://docs.python.org/3/using/) and that the Python `Scripts`
+folder is in your system path. Then, you can just use `pip` to install it:
 
 ```bash
-cd spm2olca
-pip install -e .
+pip install spm2olca
 ```
 
 After this you should be able to run the tool anywhere on your system. You can 
